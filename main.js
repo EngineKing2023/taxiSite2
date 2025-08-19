@@ -37,18 +37,30 @@ let btn =document.querySelector(".btn");
 let button1 =document.querySelector(".button1");
 let button2 =document.querySelector(".button2");
 let button3 =document.querySelector(".button3");
+let button4 =document.querySelector(".button4");
+let button5 =document.querySelector(".button5");
+let button6 =document.querySelector(".button6");
 
 
 
-
-
-
-
+let icon11 = document.querySelector(".icon11");
+let container = document.querySelector(".container");
+let container2 = document.querySelector(".container2");
+let slideshow = document.querySelector(".slideshow-container");
+let foot = document.querySelector(".footer p");
 
 let aboutUs = document.querySelector(".aboutUs");
 let isShowAboutUs = true;
-
-
+let contact = document.querySelector(".contact");
+let isShowContact = true;
+let engine = document.querySelector(".engine");
+let isShowEngine = true;
+let unity = document.querySelector(".unity");
+let isShowUnity = true;
+let websites = document.querySelector(".websites");
+let isShowWebsites = true;
+let plumber = document.querySelector(".plumber");
+let isShowPlumber = true;
 
 
 
@@ -58,6 +70,11 @@ function showAboutUs(){
         container.style.display = "none";
         container2.style.display = "none";
         button1.style.display="none";
+        button2.style.display="none";
+            button3.style.display="none";
+            button4.style.display="none";
+            button5.style.display="none";
+            button6.style.display="none";
         aboutUs.style.display ="flex";
         aboutUs.style.position = "absolute";
         
@@ -71,7 +88,195 @@ function closeAboutUs(){
         container.style.display = "flex";
         container2.style.display = "flex";
         button1.style.display="block";
+         button2.style.display="block";
+        button3.style.display="block";
+        button4.style.display="block";
+        button5.style.display="block";
+        button6.style.display="block";
         isShowAboutUs = true;
+    }
+}
+function showContact(){
+if(isShowContact){
+     container.style.backgroundColor = "black";
+         container2.style.backgroundColor = "black";
+         container2.style.paddingTop = "35vh";
+            foot.style.backgroundColor = "black";
+            btn.style.display = "none";
+            logo.style.display = "none";
+            icon11.style.display = "none";
+         button1.style.display="none";
+        button2.style.display="none";
+            button3.style.display="none";
+            button4.style.display="none";
+            button5.style.display="none";
+            button6.style.display="none";
+    contact.style.display ="flex";
+    contact.style.position = "absolute";
+    
+    isShowContact = false;
+}
+    
+}
+function closeContact(){
+    if(closeContact){
+        
+        contact.style.display ="none";
+        container.style.display = "flex";
+        container2.style.display = "flex";
+        container.style.backgroundColor = "black";
+         container2.style.backgroundColor = "black";
+         container2.style.paddingTop = "5vh";
+            foot.style.backgroundColor = "black";
+            btn.style.display = "flex";
+            logo.style.display = "flex";
+            icon11.style.display = "flex";
+        button1.style.display="block";
+         button2.style.display="block";
+        button3.style.display="block";
+        button4.style.display="block";
+        button5.style.display="block";
+        button6.style.display="block";
+        isShowContact = true;
+    }
+}
+function showEngine(){
+    if(isShowEngine){
+       
+         container2.style.display = "none";
+         btn.style.display = "none";
+         icon11.style.display = "none";
+         button1.style.display="none";
+        button2.style.display="none";
+            button3.style.display="none";
+            button4.style.display="none";
+            button5.style.display="none";
+            button6.style.display="none";
+
+
+        engine.style.display ="flex";
+        engine.style.position = "absolute";
+        isShowEngine = false;
+    }
+}
+function closeEngine(){
+    if(closeEngine){
+        container2.style.display = "flex";
+        btn.style.display = "flex";
+        icon11.style.display = "flex";
+        button1.style.display="block";
+            button2.style.display="block";
+        button3.style.display="block";
+        button4.style.display="block";
+        button5.style.display="block";
+        button6.style.display="block";
+        
+        engine.style.display ="none";
+        isShowEngine = true;
+    }}
+
+function showUnity(){
+    if(isShowUnity){
+
+        container2.style.display = "none";
+         btn.style.display = "none";
+         icon11.style.display = "none";
+         button1.style.display="none";
+        button2.style.display="none";
+            button3.style.display="none";
+            button4.style.display="none";
+            button5.style.display="none";
+            button6.style.display="none";
+
+
+        unity.style.display ="flex";
+        unity.style.position = "absolute";
+        isShowUnity = false;
+    }
+}
+function closeUnity(){
+    if(closeUnity){
+
+        container2.style.display = "flex";
+        btn.style.display = "flex";
+        icon11.style.display = "flex";
+        button1.style.display="block";
+            button2.style.display="block";
+        button3.style.display="block";
+        button4.style.display="block";
+        button5.style.display="block";
+        button6.style.display="block";
+
+        unity.style.display ="none";
+        isShowUnity = true;
+    }
+}
+function showWebsites(){
+    if(isShowWebsites){
+
+         container2.style.display = "none";
+         btn.style.display = "none";
+         icon11.style.display = "none";
+         button1.style.display="none";
+        button2.style.display="none";
+            button3.style.display="none";
+            button4.style.display="none";
+            button5.style.display="none";
+            button6.style.display="none";
+        websites.style.display ="flex";
+        websites.style.position = "absolute";
+        isShowWebsites = false;
+    }
+}
+function closeWebsites(){
+    if(closeWebsites){
+
+        container2.style.display = "flex";
+        btn.style.display = "flex";
+        icon11.style.display = "flex";
+        button1.style.display="block";
+            button2.style.display="block";
+        button3.style.display="block";
+        button4.style.display="block";
+        button5.style.display="block";
+        button6.style.display="block";
+        websites.style.display ="none";
+        isShowWebsites = true;
+    }
+}
+
+function showPlumber(){
+    if(isShowPlumber){
+
+         container2.style.display = "none";
+         btn.style.display = "none";
+         icon11.style.display = "none";
+         button1.style.display="none";
+        button2.style.display="none";
+            button3.style.display="none";
+            button4.style.display="none";
+            button5.style.display="none";
+            button6.style.display="none";
+
+        plumber.style.display ="flex";
+        plumber.style.position = "absolute";
+    }
+}
+function closePlumber(){
+    if(closePlumber){
+
+        container2.style.display = "flex";
+        btn.style.display = "flex";
+        icon11.style.display = "flex";
+        button1.style.display="block";
+            button2.style.display="block";
+        button3.style.display="block";
+        button4.style.display="block";
+        button5.style.display="block";
+        button6.style.display="block";
+
+        plumber.style.display ="none";
+        isShowPlumber = true;
     }
 }
 
@@ -80,14 +285,6 @@ function closeAboutUs(){
 
 
 
-
-
-
-
-let container = document.querySelector(".container");
-let container2 = document.querySelector(".container2");
-let slideshow = document.querySelector(".slideshow-container");
-let foot = document.querySelector(".footer p");
 
 
 
@@ -123,6 +320,11 @@ btn.addEventListener("click",()=>{
         
         
         button1.style.display="block";
+        button2.style.display="block";
+        button3.style.display="block";
+        button4.style.display="block";
+        button5.style.display="block";
+        button6.style.display="block";
     }
 
     else{
@@ -149,4 +351,9 @@ btn.addEventListener("click",()=>{
         foot.style.backgroundColor = "#052bff";
         
             button1.style.display="none";
+            button2.style.display="none";
+            button3.style.display="none";
+            button4.style.display="none";
+            button5.style.display="none";
+            button6.style.display="none";
         }})
