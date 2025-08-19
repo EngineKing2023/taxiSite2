@@ -98,6 +98,7 @@ function closeAboutUs(){
 }
 function showContact(){
 if(isShowContact){
+    foot.style.display = "none";
      container.style.backgroundColor = "black";
          container2.style.backgroundColor = "black";
          container2.style.paddingTop = "35vh";
@@ -120,7 +121,7 @@ if(isShowContact){
 }
 function closeContact(){
     if(closeContact){
-        
+        foot.style.display = "flex";
         contact.style.display ="none";
         container.style.display = "flex";
         container2.style.display = "flex";
