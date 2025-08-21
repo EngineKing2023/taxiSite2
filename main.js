@@ -294,9 +294,12 @@ function closePlumber(){
 
 
 btn.addEventListener("click",()=>{
-    if(btn.textContent == "Vstopi" ){
+    if(btn.textContent == "Vstopi" || btn.textContent == "Entra" || btn.textContent == "Enter"||btn.textContent == "Izhod" || btn.textContent == "Esci" || btn.textContent == "Eingeben" || btn.textContent == "Zurück" || btn.textContent == "Exit"){
 
-        if(myDocument.requestFullscreen){
+if( btn.textContent=="Vstopi")
+    {
+
+   if(myDocument.requestFullscreen){
             myDocument.requestFullscreen();
         }
        else if(myDocument.msRequestFullscreen){
@@ -315,7 +318,7 @@ btn.addEventListener("click",()=>{
          btn.textContent = "Izhod";
          container.style.backgroundColor = "black";
          container2.style.backgroundColor = "black";
-         container2.style.paddingTop = "5vh";
+         container2.style.paddingTop = "8vh";
             foot.style.backgroundColor = "black";
         
         
@@ -326,9 +329,13 @@ btn.addEventListener("click",()=>{
         button4.style.display="block";
         button5.style.display="block";
         button6.style.display="block";
-    }
+       
 
-    else{
+
+
+}
+
+else if(btn.textContent == "Izhod" ){
             if(document.exitFullscreen){
                 document.exitFullscreen();
             }
@@ -343,8 +350,6 @@ btn.addEventListener("click",()=>{
             }
 
 
-
-
             btn.textContent = "Vstopi";
         container.style.backgroundColor = "#052bff";
         container2.style.backgroundColor = "#eeff00";
@@ -357,4 +362,222 @@ btn.addEventListener("click",()=>{
             button4.style.display="none";
             button5.style.display="none";
             button6.style.display="none";
-        }})
+        }
+
+else{}
+        
+     if(btn.textContent =="Entra")
+    {
+
+   if(myDocument.requestFullscreen){
+            myDocument.requestFullscreen();
+        }
+       else if(myDocument.msRequestFullscreen){
+            myDocument.msRequestFullscreen();
+        }
+        else if(myDocument.mozRequestFullscreen){
+            myDocument.mozRequestFullscreen();
+        }
+        
+        else if(myDocument.webkitRequestFullscreen){
+            myDocument.webkitRequestFullscreen();
+        }
+
+
+
+         btn.textContent = "Esci";
+         container.style.backgroundColor = "black";
+         container2.style.backgroundColor = "black";
+         container2.style.paddingTop = "5vh";
+            foot.style.backgroundColor = "black";
+        
+        
+        
+        button1.style.display="block";
+        button2.style.display="block";
+        button3.style.display="block";
+        button4.style.display="block";
+        button5.style.display="block";
+        button6.style.display="block";
+       
+
+
+
+}
+
+else if(btn.textContent == "Esci" ){
+            if(document.exitFullscreen){
+                document.exitFullscreen();
+            }
+            else if(document.msexitFullscreen){
+                document.msexitFullscreen();
+            }
+            else if(document.mozexitFullscreen){
+                document.mozexitFullscreen();
+            }
+            else if(document.webkitexitFullscreen){
+                document.webkitexitFullscreen();
+            }
+
+
+            btn.textContent = "Entra";
+        container.style.backgroundColor = "#052bff";
+        container2.style.backgroundColor = "#eeff00";
+        container2.style.paddingTop = "20vh";
+        foot.style.backgroundColor = "#052bff";
+        
+            button1.style.display="none";
+            button2.style.display="none";
+            button3.style.display="none";
+            button4.style.display="none";
+            button5.style.display="none";
+            button6.style.display="none";
+        }
+else{}
+
+
+        if(btn.textContent == "Eingeben"){
+      
+
+   if(myDocument.requestFullscreen){
+            myDocument.requestFullscreen();
+        }
+       else if(myDocument.msRequestFullscreen){
+            myDocument.msRequestFullscreen();
+        }
+        else if(myDocument.mozRequestFullscreen){
+            myDocument.mozRequestFullscreen();
+        }
+        
+        else if(myDocument.webkitRequestFullscreen){
+            myDocument.webkitRequestFullscreen();
+        }
+
+
+
+         btn.textContent = "Zurück";
+         container.style.backgroundColor = "black";
+         container2.style.backgroundColor = "black";
+         container2.style.paddingTop = "8vh";
+            foot.style.backgroundColor = "black";
+        
+        
+        
+        button1.style.display="block";
+        button2.style.display="block";
+        button3.style.display="block";
+        button4.style.display="block";
+        button5.style.display="block";
+        button6.style.display="block";
+       
+
+
+
+}
+
+else if(btn.textContent == "Zurück" ){
+            if(document.exitFullscreen){
+                document.exitFullscreen();
+            }
+            else if(document.msexitFullscreen){
+                document.msexitFullscreen();
+            }
+            else if(document.mozexitFullscreen){
+                document.mozexitFullscreen();
+            }
+            else if(document.webkitexitFullscreen){
+                document.webkitexitFullscreen();
+            }
+
+
+            btn.textContent = "Eingeben";
+        container.style.backgroundColor = "#052bff";
+        container2.style.backgroundColor = "#eeff00";
+        container2.style.paddingTop = "20vh";
+        foot.style.backgroundColor = "#052bff";
+        
+            button1.style.display="none";
+            button2.style.display="none";
+            button3.style.display="none";
+            button4.style.display="none";
+            button5.style.display="none";
+            button6.style.display="none";
+        }
+
+else{}
+
+if( btn.textContent=="Enter")
+    {
+
+   if(myDocument.requestFullscreen){
+            myDocument.requestFullscreen();
+        }
+       else if(myDocument.msRequestFullscreen){
+            myDocument.msRequestFullscreen();
+        }
+        else if(myDocument.mozRequestFullscreen){
+            myDocument.mozRequestFullscreen();
+        }
+        
+        else if(myDocument.webkitRequestFullscreen){
+            myDocument.webkitRequestFullscreen();
+        }
+
+
+
+         btn.textContent = "Exit";
+         container.style.backgroundColor = "black";
+         container2.style.backgroundColor = "black";
+         container2.style.paddingTop = "8vh";
+            foot.style.backgroundColor = "black";
+        
+        
+        
+        button1.style.display="block";
+        button2.style.display="block";
+        button3.style.display="block";
+        button4.style.display="block";
+        button5.style.display="block";
+        button6.style.display="block";
+       
+
+
+
+}
+
+else if(btn.textContent == "Exit" ){
+            if(document.exitFullscreen){
+                document.exitFullscreen();
+            }
+            else if(document.msexitFullscreen){
+                document.msexitFullscreen();
+            }
+            else if(document.mozexitFullscreen){
+                document.mozexitFullscreen();
+            }
+            else if(document.webkitexitFullscreen){
+                document.webkitexitFullscreen();
+            }
+
+
+            btn.textContent = "Enter";
+        container.style.backgroundColor = "#052bff";
+        container2.style.backgroundColor = "#eeff00";
+        container2.style.paddingTop = "20vh";
+        foot.style.backgroundColor = "#052bff";
+        
+            button1.style.display="none";
+            button2.style.display="none";
+            button3.style.display="none";
+            button4.style.display="none";
+            button5.style.display="none";
+            button6.style.display="none";
+        }
+
+else{}
+
+
+
+        }
+
+    })

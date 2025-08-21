@@ -26,6 +26,7 @@ a{
   justify-content: center;
   right:  5vw;
   bottom: 5vw;
+  -webkit-tap-highlight-color: transparent;
 }
 h1{
   color: whitesmoke;
@@ -35,6 +36,26 @@ p{
   font-size: 3.8vw;
   margin: 0px;
   padding: 0px;
+}
+.jeziki{
+  display: flex;
+ position: absolute;
+  align-items: center;
+  justify-content: center;
+ margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+  
+}
+.button_lang{
+  display: inline-block;
+  
+  text-align: center;
+  
+  width: 9vw;
+  height: 9vw;
+  
+  
 }
 
 .aboutUs{
@@ -118,6 +139,18 @@ p{
           bottom: 5vw;
        }     
 
+  .btt3{
+        
+          -webkit-user-select: none; /* Safari */        
+          -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* IE10+/Edge */
+          user-select: none; /* Standard */
+            background-color: transparent ;
+            border: none;
+            margin: 2vw 3vw;
+       }  
+
+
 .btn{
   
             font-size:4.5vw;
@@ -126,7 +159,7 @@ p{
             margin-top: 1vw;
             margin-bottom: 1vw;
             
-          
+            font-weight: bold;
             cursor: vertical-text;
             font-family: sans-serif, cursive;
             text-decoration: none;
@@ -143,7 +176,7 @@ p{
         {
           width: 20vw;
           height: 8vw;
-          
+          font-weight: bold;
           cursor: pointer;
             font-family: sans-serif, cursive;
             text-decoration: none;
