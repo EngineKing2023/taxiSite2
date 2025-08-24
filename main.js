@@ -42,7 +42,7 @@ let button5 =document.querySelector(".button5");
 let button6 =document.querySelector(".button6");
 
 
-
+let jezik = document.querySelector(".jeziki");
 let icon11 = document.querySelector(".icon11");
 let container = document.querySelector(".container");
 let container2 = document.querySelector(".container2");
@@ -67,6 +67,7 @@ let isShowPlumber = true;
 
 function showAboutUs(){
     if(isShowAboutUs){
+        jezik.style.display="none";
         container.style.display = "none";
         container2.style.display = "none";
         button1.style.display="none";
@@ -84,6 +85,7 @@ function showAboutUs(){
 }
 function closeAboutUs(){
     if(closeAboutUs){
+        jezik.style.display="flex";
         aboutUs.style.display ="none";
         container.style.display = "flex";
         container2.style.display = "flex";
@@ -98,6 +100,7 @@ function closeAboutUs(){
 }
 function showContact(){
 if(isShowContact){
+    jezik.style.display="none";
     foot.style.display = "none";
      container.style.backgroundColor = "black";
          container2.style.backgroundColor = "black";
@@ -121,6 +124,7 @@ if(isShowContact){
 }
 function closeContact(){
     if(closeContact){
+        jezik.style.display="flex";
         foot.style.display = "flex";
         contact.style.display ="none";
         container.style.display = "flex";
@@ -143,7 +147,7 @@ function closeContact(){
 }
 function showEngine(){
     if(isShowEngine){
-       
+       jezik.style.display="none";
          container2.style.display = "none";
          btn.style.display = "none";
          icon11.style.display = "none";
@@ -162,6 +166,7 @@ function showEngine(){
 }
 function closeEngine(){
     if(closeEngine){
+        jezik.style.display="flex";
         container2.style.display = "flex";
         btn.style.display = "flex";
         icon11.style.display = "flex";
@@ -178,7 +183,7 @@ function closeEngine(){
 
 function showUnity(){
     if(isShowUnity){
-
+        jezik.style.display="none";
         container2.style.display = "none";
          btn.style.display = "none";
          icon11.style.display = "none";
@@ -197,7 +202,7 @@ function showUnity(){
 }
 function closeUnity(){
     if(closeUnity){
-
+            jezik.style.display="flex";
         container2.style.display = "flex";
         btn.style.display = "flex";
         icon11.style.display = "flex";
@@ -214,7 +219,7 @@ function closeUnity(){
 }
 function showWebsites(){
     if(isShowWebsites){
-
+        jezik.style.display="none";
          container2.style.display = "none";
          btn.style.display = "none";
          icon11.style.display = "none";
@@ -231,7 +236,7 @@ function showWebsites(){
 }
 function closeWebsites(){
     if(closeWebsites){
-
+        jezik.style.display="flex";
         container2.style.display = "flex";
         btn.style.display = "flex";
         icon11.style.display = "flex";
@@ -248,7 +253,7 @@ function closeWebsites(){
 
 function showPlumber(){
     if(isShowPlumber){
-
+            jezik.style.display="none";
          container2.style.display = "none";
          btn.style.display = "none";
          icon11.style.display = "none";
@@ -265,7 +270,7 @@ function showPlumber(){
 }
 function closePlumber(){
     if(closePlumber){
-
+            jezik.style.display="flex";
         container2.style.display = "flex";
         btn.style.display = "flex";
         icon11.style.display = "flex";
@@ -294,7 +299,7 @@ function closePlumber(){
 
 
 btn.addEventListener("click",()=>{
-    if(btn.textContent == "Vstopi" || btn.textContent == "Entra" || btn.textContent == "Enter"||btn.textContent == "Izhod" || btn.textContent == "Esci" || btn.textContent == "Eingeben" || btn.textContent == "Zurück" || btn.textContent == "Exit"){
+    if(btn.textContent == "Vstopi" || btn.textContent == "Entra" || btn.textContent == "Enter"||btn.textContent == "Nazaj" || btn.textContent == "Esci" || btn.textContent == "Eingeben" || btn.textContent == "Zurück" || btn.textContent == "Exit"){
 
 if( btn.textContent=="Vstopi")
     {
@@ -315,7 +320,7 @@ if( btn.textContent=="Vstopi")
 
 
 
-         btn.textContent = "Izhod";
+         btn.textContent = "Nazaj";
          container.style.backgroundColor = "black";
          container2.style.backgroundColor = "black";
          container2.style.paddingTop = "8vh";
@@ -335,7 +340,7 @@ if( btn.textContent=="Vstopi")
 
 }
 
-else if(btn.textContent == "Izhod" ){
+else if(btn.textContent == "Nazaj" ){
             if(document.exitFullscreen){
                 document.exitFullscreen();
             }
@@ -388,7 +393,7 @@ else{}
          btn.textContent = "Esci";
          container.style.backgroundColor = "black";
          container2.style.backgroundColor = "black";
-         container2.style.paddingTop = "5vh";
+         container2.style.paddingTop = "8vh";
             foot.style.backgroundColor = "black";
         
         
