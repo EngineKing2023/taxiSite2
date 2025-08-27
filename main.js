@@ -299,7 +299,7 @@ function closePlumber(){
 
 
 btn.addEventListener("click",()=>{
-    if(btn.textContent == "Vstopi" || btn.textContent == "Entra" || btn.textContent == "Enter"||btn.textContent == "Nazaj" || btn.textContent == "Esci" || btn.textContent == "Eingeben" || btn.textContent == "Zurück" || btn.textContent == "Exit"){
+    if(btn.textContent == "Vstopi" || btn.textContent == "Entra" || btn.textContent == "Enter"|| btn.textContent == "Girmek"||btn.textContent == "Nazaj" || btn.textContent == "Esci" || btn.textContent == "Eingeben" || btn.textContent == "Zurück" || btn.textContent == "Exit" || btn.textContent == "Çıkış"){
 
 if( btn.textContent=="Vstopi")
     {
@@ -371,6 +371,77 @@ else if(btn.textContent == "Nazaj" ){
 
 else{}
         
+if( btn.textContent=="Girmek")
+    {
+
+   if(myDocument.requestFullscreen){
+            myDocument.requestFullscreen();
+        }
+       else if(myDocument.msRequestFullscreen){
+            myDocument.msRequestFullscreen();
+        }
+        else if(myDocument.mozRequestFullscreen){
+            myDocument.mozRequestFullscreen();
+        }
+        
+        else if(myDocument.webkitRequestFullscreen){
+            myDocument.webkitRequestFullscreen();
+        }
+
+
+
+         btn.textContent = "Çıkış";
+         container.style.backgroundColor = "black";
+         container2.style.backgroundColor = "black";
+         container2.style.paddingTop = "8vh";
+            foot.style.backgroundColor = "black";
+        
+        
+        
+        button1.style.display="block";
+        button2.style.display="block";
+        button3.style.display="block";
+        button4.style.display="block";
+        button5.style.display="block";
+        button6.style.display="block";
+       
+
+
+
+}
+
+else if(btn.textContent == "Çıkış" ){
+            if(document.exitFullscreen){
+                document.exitFullscreen();
+            }
+            else if(document.msexitFullscreen){
+                document.msexitFullscreen();
+            }
+            else if(document.mozexitFullscreen){
+                document.mozexitFullscreen();
+            }
+            else if(document.webkitexitFullscreen){
+                document.webkitexitFullscreen();
+            }
+
+
+            btn.textContent = "Girmek";
+        container.style.backgroundColor = "#052bff";
+        container2.style.backgroundColor = "#eeff00";
+        container2.style.paddingTop = "20vh";
+        foot.style.backgroundColor = "#052bff";
+        
+            button1.style.display="none";
+            button2.style.display="none";
+            button3.style.display="none";
+            button4.style.display="none";
+            button5.style.display="none";
+            button6.style.display="none";
+        }
+
+else{}
+
+
      if(btn.textContent =="Entra")
     {
 
