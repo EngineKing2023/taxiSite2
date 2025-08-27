@@ -131,7 +131,7 @@ function closeContact(){
         container2.style.display = "flex";
         container.style.backgroundColor = "black";
          container2.style.backgroundColor = "black";
-         container2.style.paddingTop = "5vh";
+         container2.style.paddingTop = "8vh";
             foot.style.backgroundColor = "black";
             btn.style.display = "flex";
             logo.style.display = "flex";
