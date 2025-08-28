@@ -68,7 +68,7 @@ p{
 .cenik{
   
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   
   color: whitesmoke;
@@ -76,7 +76,7 @@ p{
 }
 .polovica{
   display: flex;
-  width: 50%;
+  margin: 1vw;
   
 }
 .jeziki{
@@ -303,7 +303,7 @@ img{
 
             width:40vw;
             height: 15vw;
-                  font-size:7vw;
+                  font-size:6vw;
                   
                   
                   cursor: pointer;
@@ -313,7 +313,7 @@ img{
                   font-weight: bold;
                   border:#eeff00 3px solid;
                   background-color:transparent;
-                  border-radius: 1em;
+                  border-radius: 1.2em;
                   text-shadow: 0 0 0 #008cff, 0 0 0 currentColor;
                   box-shadow: inset 0 0 0.5em 0#eeff00, 0 0 0.5em 0#eeff00;
                   transition:all 0.5s;
@@ -328,7 +328,7 @@ img{
             bottom: 25vh;
                     width:40vw;
             height: 15vw;
-            font-size:7vw;
+            font-size:6vw;
             
                   cursor: pointer;
                   font-family: sans-serif, cursive;
@@ -337,7 +337,7 @@ img{
                   font-weight: bold;
                   border:#008cff 3px solid;
                   background-color:transparent;
-                  border-radius: 1em;
+                  border-radius: 1.2em;
                   text-shadow: 0 0 0 hsl(0 0% 100% / 0.3), 0 0 0 currentColor;
                   box-shadow: inset 0 0 0.5em 0#008cff, 0 0 0.5em 0#008cff;
                   transition:all 0.5s;
@@ -351,7 +351,7 @@ img{
             bottom: 15vh;
             width:40vw;
             height: 15vw;
-            font-size:7vw;
+            font-size:6vw;
             
            cursor: pointer;
                   font-family: sans-serif, cursive;
@@ -360,7 +360,7 @@ img{
                   font-weight: bold;
                   border:#eeff00 3px solid;
                   background-color:transparent;
-                  border-radius: 1em;
+                  border-radius: 1.2em;
                   text-shadow: 0 0 0 #008cff, 0 0 0 currentColor;
                   box-shadow: inset 0 0 0.5em 0#eeff00, 0 0 0.5em 0#eeff00;
                   transition:all 0.5s;
@@ -417,7 +417,7 @@ img{
             bottom: 15vh;
              width:40vw;
              height: 15vw;
-             font-size:7vw;
+             font-size:6vw;
              
            cursor: pointer;
                   font-family: sans-serif, cursive;
@@ -426,7 +426,7 @@ img{
                   font-weight: bold;
                   border:#008cff 3px solid;
                   background-color:transparent;
-                  border-radius: 1em;
+                  border-radius: 1.2em;
                   text-shadow: 0 0 0 hsl(0 0% 100% / 0.3), 0 0 0 currentColor;
                   box-shadow: inset 0 0 0.5em 0#008cff, 0 0 0.5em 0#008cff;
                   transition:all 0.5s;

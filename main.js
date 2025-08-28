@@ -299,24 +299,11 @@ function closePlumber(){
 
 
 btn.addEventListener("click",()=>{
-    if(btn.textContent == "Vstopi" || btn.textContent == "Entra" || btn.textContent == "Enter"|| btn.textContent == "Girmek"||btn.textContent == "Nazaj" || btn.textContent == "Esci" || btn.textContent == "Eingeben" || btn.textContent == "Zurück" || btn.textContent == "Exit" || btn.textContent == "Çıkış"){
+    if(btn.textContent == "Vstopi" || btn.textContent == "Entra" || btn.textContent == "Enter"|| btn.textContent == "Girmek"||btn.textContent == "Nazaj" || btn.textContent == "Esci" || btn.textContent == "Eingeben" || btn.textContent == "Zurück" || btn.textContent == "Exit" || btn.textContent == "ÇIKIŞ"){
 
 if( btn.textContent=="Vstopi")
     {
 
-   if(myDocument.requestFullscreen){
-            myDocument.requestFullscreen();
-        }
-       else if(myDocument.msRequestFullscreen){
-            myDocument.msRequestFullscreen();
-        }
-        else if(myDocument.mozRequestFullscreen){
-            myDocument.mozRequestFullscreen();
-        }
-        
-        else if(myDocument.webkitRequestFullscreen){
-            myDocument.webkitRequestFullscreen();
-        }
 
 
 
@@ -341,19 +328,7 @@ if( btn.textContent=="Vstopi")
 }
 
 else if(btn.textContent == "Nazaj" ){
-            if(document.exitFullscreen){
-                document.exitFullscreen();
-            }
-            else if(document.msexitFullscreen){
-                document.msexitFullscreen();
-            }
-            else if(document.mozexitFullscreen){
-                document.mozexitFullscreen();
-            }
-            else if(document.webkitexitFullscreen){
-                document.webkitexitFullscreen();
-            }
-
+            
 
             btn.textContent = "Vstopi";
         container.style.backgroundColor = "#052bff";
@@ -371,26 +346,14 @@ else if(btn.textContent == "Nazaj" ){
 
 else{}
         
-if( btn.textContent=="Girmek")
+if( btn.textContent == "Girmek")
     {
 
-   if(myDocument.requestFullscreen){
-            myDocument.requestFullscreen();
-        }
-       else if(myDocument.msRequestFullscreen){
-            myDocument.msRequestFullscreen();
-        }
-        else if(myDocument.mozRequestFullscreen){
-            myDocument.mozRequestFullscreen();
-        }
-        
-        else if(myDocument.webkitRequestFullscreen){
-            myDocument.webkitRequestFullscreen();
-        }
+  
 
 
 
-         btn.textContent = "Çıkış";
+         btn.textContent = "ÇIKIŞ";
          container.style.backgroundColor = "black";
          container2.style.backgroundColor = "black";
          container2.style.paddingTop = "8vh";
@@ -410,19 +373,8 @@ if( btn.textContent=="Girmek")
 
 }
 
-else if(btn.textContent == "Çıkış" ){
-            if(document.exitFullscreen){
-                document.exitFullscreen();
-            }
-            else if(document.msexitFullscreen){
-                document.msexitFullscreen();
-            }
-            else if(document.mozexitFullscreen){
-                document.mozexitFullscreen();
-            }
-            else if(document.webkitexitFullscreen){
-                document.webkitexitFullscreen();
-            }
+else if(btn.textContent == "ÇIKIŞ" ){
+           
 
 
             btn.textContent = "Girmek";
@@ -445,19 +397,7 @@ else{}
      if(btn.textContent =="Entra")
     {
 
-   if(myDocument.requestFullscreen){
-            myDocument.requestFullscreen();
-        }
-       else if(myDocument.msRequestFullscreen){
-            myDocument.msRequestFullscreen();
-        }
-        else if(myDocument.mozRequestFullscreen){
-            myDocument.mozRequestFullscreen();
-        }
-        
-        else if(myDocument.webkitRequestFullscreen){
-            myDocument.webkitRequestFullscreen();
-        }
+   
 
 
 
@@ -482,18 +422,7 @@ else{}
 }
 
 else if(btn.textContent == "Esci" ){
-            if(document.exitFullscreen){
-                document.exitFullscreen();
-            }
-            else if(document.msexitFullscreen){
-                document.msexitFullscreen();
-            }
-            else if(document.mozexitFullscreen){
-                document.mozexitFullscreen();
-            }
-            else if(document.webkitexitFullscreen){
-                document.webkitexitFullscreen();
-            }
+           
 
 
             btn.textContent = "Entra";
@@ -512,24 +441,10 @@ else if(btn.textContent == "Esci" ){
 else{}
 
 
-        if(btn.textContent == "Eingeben"){
-      
-
-   if(myDocument.requestFullscreen){
-            myDocument.requestFullscreen();
-        }
-       else if(myDocument.msRequestFullscreen){
-            myDocument.msRequestFullscreen();
-        }
-        else if(myDocument.mozRequestFullscreen){
-            myDocument.mozRequestFullscreen();
-        }
         
-        else if(myDocument.webkitRequestFullscreen){
-            myDocument.webkitRequestFullscreen();
-        }
 
-
+ if(btn.textContent =="Eingeben")
+ {
 
          btn.textContent = "Zurück";
          container.style.backgroundColor = "black";
@@ -552,19 +467,7 @@ else{}
 }
 
 else if(btn.textContent == "Zurück" ){
-            if(document.exitFullscreen){
-                document.exitFullscreen();
-            }
-            else if(document.msexitFullscreen){
-                document.msexitFullscreen();
-            }
-            else if(document.mozexitFullscreen){
-                document.mozexitFullscreen();
-            }
-            else if(document.webkitexitFullscreen){
-                document.webkitexitFullscreen();
-            }
-
+            
 
             btn.textContent = "Eingeben";
         container.style.backgroundColor = "#052bff";
@@ -585,19 +488,7 @@ else{}
 if( btn.textContent=="Enter")
     {
 
-   if(myDocument.requestFullscreen){
-            myDocument.requestFullscreen();
-        }
-       else if(myDocument.msRequestFullscreen){
-            myDocument.msRequestFullscreen();
-        }
-        else if(myDocument.mozRequestFullscreen){
-            myDocument.mozRequestFullscreen();
-        }
-        
-        else if(myDocument.webkitRequestFullscreen){
-            myDocument.webkitRequestFullscreen();
-        }
+  
 
 
 
@@ -622,18 +513,7 @@ if( btn.textContent=="Enter")
 }
 
 else if(btn.textContent == "Exit" ){
-            if(document.exitFullscreen){
-                document.exitFullscreen();
-            }
-            else if(document.msexitFullscreen){
-                document.msexitFullscreen();
-            }
-            else if(document.mozexitFullscreen){
-                document.mozexitFullscreen();
-            }
-            else if(document.webkitexitFullscreen){
-                document.webkitexitFullscreen();
-            }
+            
 
 
             btn.textContent = "Enter";
