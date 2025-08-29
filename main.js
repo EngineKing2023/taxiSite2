@@ -9,7 +9,7 @@ function showSlides() {
   }
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "flex";
+  slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 400); // Change image every 2 seconds
 }
 
@@ -333,7 +333,7 @@ else if(btn.textContent == "Nazaj" ){
             btn.textContent = "Vstopi";
         container.style.backgroundColor = "#052bff";
         container2.style.backgroundColor = "#eeff00";
-        container2.style.paddingTop = "20vh";
+        container2.style.paddingTop = "0vh";
         foot.style.backgroundColor = "#052bff";
         
             button1.style.display="none";
@@ -380,7 +380,7 @@ else if(btn.textContent == "ÇIKIŞ" ){
             btn.textContent = "Girmek";
         container.style.backgroundColor = "#052bff";
         container2.style.backgroundColor = "#eeff00";
-        container2.style.paddingTop = "20vh";
+        container2.style.paddingTop = "0vh";
         foot.style.backgroundColor = "#052bff";
         
             button1.style.display="none";
@@ -428,7 +428,7 @@ else if(btn.textContent == "Esci" ){
             btn.textContent = "Entra";
         container.style.backgroundColor = "#052bff";
         container2.style.backgroundColor = "#eeff00";
-        container2.style.paddingTop = "20vh";
+        container2.style.paddingTop = "0vh";
         foot.style.backgroundColor = "#052bff";
         
             button1.style.display="none";
@@ -472,7 +472,7 @@ else if(btn.textContent == "Zurück" ){
             btn.textContent = "Eingeben";
         container.style.backgroundColor = "#052bff";
         container2.style.backgroundColor = "#eeff00";
-        container2.style.paddingTop = "20vh";
+        container2.style.paddingTop = "0vh";
         foot.style.backgroundColor = "#052bff";
         
             button1.style.display="none";
@@ -519,7 +519,7 @@ else if(btn.textContent == "Exit" ){
             btn.textContent = "Enter";
         container.style.backgroundColor = "#052bff";
         container2.style.backgroundColor = "#eeff00";
-        container2.style.paddingTop = "20vh";
+        container2.style.paddingTop = "0vh";
         foot.style.backgroundColor = "#052bff";
         
             button1.style.display="none";
