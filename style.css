@@ -359,7 +359,15 @@ div span:nth-child(12)::before
 }
 
 .jeziki{
-  display: none;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+ margin-left:auto;
+    margin-right:auto;
+    z-index: 2;
+    width: 100%;
+
 }
 .aboutUs{
   display: none;
@@ -459,8 +467,95 @@ div span:nth-child(12)::before
     
    }
    a{
-    display: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
    }
+   button{
+    
+    -webkit-tap-highlight-color: transparent;
+   }
+   .button_lang{
+   display: inline-block;
+  
+  text-align: center;
+  
+  width: 10vw;
+  height: 10vw;
+  width: 3vw;
+  height: 3vw;
+   }
+.flight{
+  display: flex;
+  position: absolute;
+    left: 1vw;
+    top: 1vw;
+  width: 3vw;
+  height: 3vw;
+  z-index: 3;
+
+}
+
+.dropbtn {
+  position: absolute;
+  background-color: #000000;
+  color: white;
+  
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 15vw;
+font-size: 1.5vw;
+  left: 1vw;
+    top: 7vw;
+  z-index: 1;
+}
+
+.dropdown-content p {
+  color: rgb(255, 255, 255);
+  padding: 3px 3px;
+  text-decoration: none;
+  display: block;
+  
+  
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ffffff;
+}
+
+
+.btt3{
+        
+          -webkit-user-select: none; /* Safari */        
+          -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* IE10+/Edge */
+          user-select: none; /* Standard */
+            background-color: transparent ;
+            border: none;
+            margin: 1vw 1vw;
+       }  
+
+
+
    p{
    display: none;
    }
@@ -610,7 +705,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.road{
+.dropdown{
   display: none;
 }
 
@@ -1138,7 +1233,7 @@ img{
   font-size: 3vw;
  bottom: 0;
  width: 100%;
-        height: 9vw;
+        height: 6vw;
   color: whitesmoke;
 }
 .footer p {
