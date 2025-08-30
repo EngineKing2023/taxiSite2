@@ -14,18 +14,20 @@ height: 100dvh;
   background:#000000;
 
 }
-
+.road{
+  display: none;
+}
 span
 {
   display:block;
   position:absolute;
-  top:calc(50% - 2px);
+  top:50dvh;
   left:50%;
-  width:40vh;
-  height:40px;
+  width:30dvh;
+  height:0px;
   background:transparent;
   transform-origin:left;
-  animation:animate 2s linear infinite;
+  animation:animate 5s linear infinite;
 }
 span:before
 {
@@ -42,13 +44,15 @@ span:before
 div span:nth-child(2){
   display:block;
   position:absolute;
-  top:calc(50% - 2px);
-  left:50%;
-  width:40vh;
-  height:40px;
+ margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+  width:30dvh;
+  height:0px;
   background:transparent;
   transform-origin:left;
-  animation:animate 2.4s linear infinite;
+  animation:animate 5.4s linear infinite;
 }
 div span:nth-child(2)::before
 {
@@ -65,13 +69,15 @@ div span:nth-child(2)::before
 div span:nth-child(3){
   display:block;
   position:absolute;
-  top:calc(50% - 2px);
-  left:50%;
-  width:40vh;
-  height:40px;
+ margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+  width:30dvh;
+  height:0px;
   background:transparent;
   transform-origin:left;
-  animation:animate 3s linear infinite;
+  animation:animate 6s linear infinite;
 }
 div span:nth-child(3)::before
 {
@@ -88,13 +94,15 @@ div span:nth-child(3)::before
 div span:nth-child(4){
   display:block;
   position:absolute;
-  top:calc(50% - 2px);
-  left:50%;
-  width:40vh;
-  height:40px;
+  margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+  width:30dvh;
+  height:0px;
   background:transparent;
   transform-origin:left;
-  animation:animate 2.5s linear infinite;
+  animation:animate 6.5s linear infinite;
 }
 div span:nth-child(4)::before
 {
@@ -111,13 +119,15 @@ div span:nth-child(4)::before
 div span:nth-child(5){
   display:block;
   position:absolute;
-  top:calc(50% - 2px);
-  left:50%;
-  width:40vh;
-  height:40px;
+  margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+  width:30dvh;
+  height:0px;
   background:transparent;
   transform-origin:left;
-  animation:animate 2.2s linear infinite;
+  animation:animate 6.2s linear infinite;
 }
 div span:nth-child(5)::before
 {
@@ -126,21 +136,23 @@ div span:nth-child(5)::before
   width:16px;
   height:16px;
   border-radius:50%;
-  background:#001aff;
+  background:#fff000;
   top:-6px;
   right:-8px;
-  box-shadow:0 0 20px #001aff;
+  box-shadow:0 0 20px #fff000;
 }
 div span:nth-child(6){
   display:block;
   position:absolute;
-  top:calc(50% - 2px);
-  left:50%;
-  width:40vh;
-  height:40px;
+margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+  width:30dvh;
+  height:0px;
   background:transparent;
   transform-origin:left;
-  animation:animate 2.7s linear infinite;
+  animation:animate 6.7s linear infinite;
 }
 div span:nth-child(6)::before
 {
@@ -149,23 +161,25 @@ div span:nth-child(6)::before
   width:16px;
   height:16px;
   border-radius:50%;
-  background:#fff000;
+  background:#001aff;
   top:-6px;
   right:-8px;
-  box-shadow:0 0 20px #fff000;
+  box-shadow:0 0 20px #001aff;
 }
 
 
 div span:nth-child(7){
   display:block;
   position:absolute;
-  top:calc(50% - 2px);
-  left:50%;
-  width:40vh;
-  height:40px;
+margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+  width:30dvh;
+  height:0px;
   background:transparent;
   transform-origin:left;
-  animation:animateC 2.4s linear infinite;
+  animation:animateC 6s linear infinite;
 }
 div span:nth-child(7)::before
 {
@@ -174,23 +188,50 @@ div span:nth-child(7)::before
   width:16px;
   height:16px;
   border-radius:50%;
+  background:#fff000;
+  top:-6px;
+  right:-8px;
+  box-shadow:0 0 20px #fff000;
+}
+div span:nth-child(8){
+  display:block;
+  position:absolute;
+  margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+  width:30dvh;
+  height:0px;
+  background:transparent;
+  transform-origin:left;
+  animation:animateC 5.9s linear infinite;
+}
+div span:nth-child(8)::before
+{
+  content:'';
+  position:absolute;
+  width:16px;
+  height:16px;
+  border-radius:50%;
   background:#001aff;
   top:-6px;
   right:-8px;
   box-shadow:0 0 20px #001aff;
 }
-div span:nth-child(8){
+div span:nth-child(9){
   display:block;
   position:absolute;
-  top:calc(50% - 2px);
-  left:50%;
-  width:40vh;
-  height:40px;
+  margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+  width:30dvh;
+  height:0px;
   background:transparent;
   transform-origin:left;
-  animation:animateC 3s linear infinite;
+  animation:animateC 5.5s linear infinite;
 }
-div span:nth-child(8)::before
+div span:nth-child(9)::before
 {
   content:'';
   position:absolute;
@@ -202,39 +243,18 @@ div span:nth-child(8)::before
   right:-8px;
   box-shadow:0 0 20px #fff000;
 }
-div span:nth-child(9){
-  display:block;
-  position:absolute;
-  top:calc(50% - 2px);
-  left:50%;
-  width:40vh;
-  height:40px;
-  background:transparent;
-  transform-origin:left;
-  animation:animateC 2.5s linear infinite;
-}
-div span:nth-child(9)::before
-{
-  content:'';
-  position:absolute;
-  width:16px;
-  height:16px;
-  border-radius:50%;
-  background:#001aff;
-  top:-6px;
-  right:-8px;
-  box-shadow:0 0 20px #001aff;
-}
 div span:nth-child(10){
   display:block;
   position:absolute;
-  top:calc(50% - 2px);
-  left:50%;
-  width:40vh;
-  height:40px;
+ margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+  width:30dvh;
+  height:0px;
   background:transparent;
   transform-origin:left;
-  animation:animateC 2.2s linear infinite;
+  animation:animateC 7.2s linear infinite;
 }
 div span:nth-child(10)::before
 {
@@ -251,13 +271,15 @@ div span:nth-child(10)::before
 div span:nth-child(11){
   display:block;
   position:absolute;
-  top:calc(50% - 2px);
-  left:50%;
-  width:40vh;
-  height:40px;
+  margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+  width:30dvh;
+  height:0;
   background:transparent;
   transform-origin:left;
-  animation:animateC 2.7s linear infinite;
+  animation:animateC 6.7s linear infinite;
 }
 div span:nth-child(11)::before
 {
@@ -275,13 +297,15 @@ div span:nth-child(11)::before
 div span:nth-child(12){
   display:block;
   position:absolute;
-  top:calc(50% - 2px);
-  left:50%;
-  width:40vh;
-  height:40px;
+ margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+  width:30dvh;
+  height:0px;
   background:transparent;
   transform-origin:left;
-  animation:animateC 2.2s linear infinite;
+  animation:animateC 6.1s linear infinite;
 }
 div span:nth-child(12)::before
 {
@@ -414,8 +438,12 @@ div span:nth-child(12)::before
     display: none;
    }
    .slideshow-container{
-    display: flex;
-    position: relative;
+    display: block;
+    position: absolute;
+    margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
    }
    .fade {
   animation-name: fade;
@@ -426,28 +454,23 @@ div span:nth-child(12)::before
   to {opacity: 1}
 }
    img{
-    width: 70vh;
-    height: 70vh;
-    margin-top: 7.5vh;
+    width: 60dvh;
+    height: 60dvh;
+    
+   }
+   a{
+    display: none;
    }
    p{
-    color: whitesmoke;
-  font-size: 4vh;
-  margin: 1vh;
-  padding: 0px;
+   display: none;
    }
    .footer{
   
-  justify-content: end;
-  color: whitesmoke;
+  display: none;
 }
 .footer p {
   
-  text-align: center;
-  font-size: 1vw;
-  margin: 0.5vw;
-  margin: 0%;
-  padding: 0%;
+  display:none;
 }
    .logo{
     display: none;
@@ -456,6 +479,17 @@ div span:nth-child(12)::before
    .klici{
     display: none;
    }
+   .vstopi{
+    display: none;
+   }
+.button0{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  left:  5vw;
+  bottom: 5vw;
+}
 
 
    .button1{
@@ -478,7 +512,94 @@ div span:nth-child(12)::before
    }
 
 
-@media (max-width:600px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:600px) and (orientation: portrait)
 
 {
 body {
@@ -489,7 +610,9 @@ body {
     margin: 0px;
     padding: 0px;
 }
-
+.road{
+  display: none;
+}
 
 a{
   display: flex;
@@ -526,12 +649,7 @@ li{
   margin: 3vw;
   padding: 0px;
 }
-p{
-  color: whitesmoke;
-  font-size: 5vw;
-  margin: 3vw;
-  padding: 0px;
-}
+
 .ring{
   display: none;
 }
@@ -576,6 +694,9 @@ p{
   
 }
 .klici{
+  display: flex;
+}
+.vstopi{
   display: flex;
 }
 
@@ -686,7 +807,7 @@ p{
        }  
 
 
-.btn{
+.bton{
   
             font-size:4.5vw;
             
@@ -741,7 +862,7 @@ img{
     height: 65vw;
 }
 .container{
-  background-color: #052bff;
+  background: linear-gradient( yellow 50%, blue 50%);
     display: flex;
     flex-direction: column;
     justify-content:space-between;
@@ -751,16 +872,15 @@ img{
     
  }
 .container2{
-  background-color: #eeff00;
+ 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    background-color: transparent;
     width: 100% ;
-    height: 50dvh;
-    margin: 0px;  
-    padding-top: 0vh;
+    
+    
     
     
  }
@@ -984,13 +1104,10 @@ img{
 
 .slideshow-container {
   
-  position: relative;
-  justify-content: center;
+  display: flex;
+  position: absolute;
   align-items: center;
-  margin: 0%;
-  padding: 0%;
-  width: 100%;
-    height: 100dvh;
+  justify-content: center;
 }
 .fade {
   animation-name: fade;
@@ -1013,20 +1130,103 @@ img{
 }      
 
 .footer{
+  display: flex;
+  position: absolute;
+ 
+  justify-content: center;
   
-  justify-content: end;
+  font-size: 3vw;
+ bottom: 0;
+ width: 100%;
+        height: 9vw;
   color: whitesmoke;
 }
 .footer p {
-  background-color: #052bff;
-  text-align: center;
-  font-size: 3.5vw;
-  margin: 0.5vw;
-  margin: 0%;
-  padding: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+   text-align: center;
+  font-size: 3vw;
+  margin: 0px;
+  padding: 0px;
+  
+}
+p{
+  display: block;
+  color: whitesmoke;
+  font-size: 5vw;
+  margin: 0vw;
+  padding: 0px;
+}
 }
 
-}
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

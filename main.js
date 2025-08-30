@@ -33,7 +33,7 @@ logo.onclick= function(){
 
 
 let myDocument = document.documentElement;
-let btn =document.querySelector(".btn");
+let bton =document.querySelector(".bton");
 let button1 =document.querySelector(".button1");
 let button2 =document.querySelector(".button2");
 let button3 =document.querySelector(".button3");
@@ -72,6 +72,7 @@ function showAboutUs(){
         container2.style.display = "none";
         button1.style.display="none";
         button2.style.display="none";
+        
             button3.style.display="none";
             button4.style.display="none";
             button5.style.display="none";
@@ -101,12 +102,12 @@ function closeAboutUs(){
 function showContact(){
 if(isShowContact){
     jezik.style.display="none";
-    foot.style.display = "none";
+    
      container.style.backgroundColor = "black";
          container2.style.backgroundColor = "black";
-         container2.style.paddingTop = "35vh";
-            foot.style.backgroundColor = "black";
-            btn.style.display = "none";
+         container2.style.paddingTop = "40vh";
+            
+            bton.style.display = "none";
             logo.style.display = "none";
             icon11.style.display = "none";
          button1.style.display="none";
@@ -125,15 +126,15 @@ if(isShowContact){
 function closeContact(){
     if(closeContact){
         jezik.style.display="flex";
-        foot.style.display = "flex";
+        
         contact.style.display ="none";
         container.style.display = "flex";
         container2.style.display = "flex";
         container.style.backgroundColor = "black";
          container2.style.backgroundColor = "black";
-         container2.style.paddingTop = "8vh";
-            foot.style.backgroundColor = "black";
-            btn.style.display = "flex";
+         container2.style.paddingTop = "0vh";
+            
+            bton.style.display = "flex";
             logo.style.display = "flex";
             icon11.style.display = "flex";
         button1.style.display="block";
@@ -149,7 +150,7 @@ function showEngine(){
     if(isShowEngine){
        jezik.style.display="none";
          container2.style.display = "none";
-         btn.style.display = "none";
+         bton.style.display = "none";
          icon11.style.display = "none";
          button1.style.display="none";
         button2.style.display="none";
@@ -168,7 +169,7 @@ function closeEngine(){
     if(closeEngine){
         jezik.style.display="flex";
         container2.style.display = "flex";
-        btn.style.display = "flex";
+        bton.style.display = "flex";
         icon11.style.display = "flex";
         button1.style.display="block";
             button2.style.display="block";
@@ -185,7 +186,7 @@ function showUnity(){
     if(isShowUnity){
         jezik.style.display="none";
         container2.style.display = "none";
-         btn.style.display = "none";
+         bton.style.display = "none";
          icon11.style.display = "none";
          button1.style.display="none";
         button2.style.display="none";
@@ -204,7 +205,7 @@ function closeUnity(){
     if(closeUnity){
             jezik.style.display="flex";
         container2.style.display = "flex";
-        btn.style.display = "flex";
+        bton.style.display = "flex";
         icon11.style.display = "flex";
         button1.style.display="block";
             button2.style.display="block";
@@ -221,7 +222,7 @@ function showWebsites(){
     if(isShowWebsites){
         jezik.style.display="none";
          container2.style.display = "none";
-         btn.style.display = "none";
+         bton.style.display = "none";
          icon11.style.display = "none";
          button1.style.display="none";
         button2.style.display="none";
@@ -238,7 +239,7 @@ function closeWebsites(){
     if(closeWebsites){
         jezik.style.display="flex";
         container2.style.display = "flex";
-        btn.style.display = "flex";
+        bton.style.display = "flex";
         icon11.style.display = "flex";
         button1.style.display="block";
             button2.style.display="block";
@@ -255,7 +256,7 @@ function showPlumber(){
     if(isShowPlumber){
             jezik.style.display="none";
          container2.style.display = "none";
-         btn.style.display = "none";
+         bton.style.display = "none";
          icon11.style.display = "none";
          button1.style.display="none";
         button2.style.display="none";
@@ -272,7 +273,7 @@ function closePlumber(){
     if(closePlumber){
             jezik.style.display="flex";
         container2.style.display = "flex";
-        btn.style.display = "flex";
+        bton.style.display = "flex";
         icon11.style.display = "flex";
         button1.style.display="block";
             button2.style.display="block";
@@ -298,20 +299,19 @@ function closePlumber(){
 
 
 
-btn.addEventListener("click",()=>{
-    if(btn.textContent == "Vstopi" || btn.textContent == "Entra" || btn.textContent == "Enter"|| btn.textContent == "Girmek"||btn.textContent == "Nazaj" || btn.textContent == "Esci" || btn.textContent == "Eingeben" || btn.textContent == "Zurück" || btn.textContent == "Exit" || btn.textContent == "ÇIKIŞ"){
+bton.addEventListener("click",()=>{
+    if(bton.textContent == "Vstopi" || bton.textContent == "Entra" || bton.textContent == "Enter"|| bton.textContent == "Girmek"||bton.textContent == "Nazaj" || bton.textContent == "Esci" || bton.textContent == "Eingeben" || bton.textContent == "Zurück" || bton.textContent == "Exit" || bton.textContent == "ÇIKIŞ"){
 
-if( btn.textContent=="Vstopi")
+if( bton.textContent=="Vstopi")
     {
 
 
 
 
-         btn.textContent = "Nazaj";
-         container.style.backgroundColor = "black";
-         container2.style.backgroundColor = "black";
-         container2.style.paddingTop = "8vh";
-            foot.style.backgroundColor = "black";
+         bton.textContent = "Nazaj";
+         container2.style.backgroundColor ="black";
+         slideshow.style.marginBottom = "40vh";
+            foot.style.display="none";
         
         
         
@@ -327,14 +327,14 @@ if( btn.textContent=="Vstopi")
 
 }
 
-else if(btn.textContent == "Nazaj" ){
+else if(bton.textContent == "Nazaj" ){
             
 
-            btn.textContent = "Vstopi";
-        container.style.backgroundColor = "#052bff";
-        container2.style.backgroundColor = "#eeff00";
-        container2.style.paddingTop = "0vh";
-        foot.style.backgroundColor = "#052bff";
+            bton.textContent = "Vstopi";
+            container2.style.backgroundColor ="transparent";
+            slideshow.style.marginBottom = "0vh";
+        foot.style.display="flex";
+        
         
             button1.style.display="none";
             button2.style.display="none";
@@ -346,19 +346,17 @@ else if(btn.textContent == "Nazaj" ){
 
 else{}
         
-if( btn.textContent == "Girmek")
+if( bton.textContent == "Girmek")
     {
 
   
 
 
 
-         btn.textContent = "ÇIKIŞ";
-         container.style.backgroundColor = "black";
-         container2.style.backgroundColor = "black";
-         container2.style.paddingTop = "8vh";
-            foot.style.backgroundColor = "black";
-        
+         bton.textContent = "ÇIKIŞ";
+         container2.style.backgroundColor ="black";
+         slideshow.style.marginBottom = "40vh";
+        foot.style.display="none";
         
         
         button1.style.display="block";
@@ -373,16 +371,16 @@ if( btn.textContent == "Girmek")
 
 }
 
-else if(btn.textContent == "ÇIKIŞ" ){
+else if(bton.textContent == "ÇIKIŞ" ){
            
 
 
-            btn.textContent = "Girmek";
-        container.style.backgroundColor = "#052bff";
-        container2.style.backgroundColor = "#eeff00";
-        container2.style.paddingTop = "0vh";
-        foot.style.backgroundColor = "#052bff";
-        
+            bton.textContent = "Girmek";
+        container2.style.backgroundColor ="transparent";
+            slideshow.style.marginBottom = "0vh";
+        foot.style.display="flex";
+
+
             button1.style.display="none";
             button2.style.display="none";
             button3.style.display="none";
@@ -394,19 +392,17 @@ else if(btn.textContent == "ÇIKIŞ" ){
 else{}
 
 
-     if(btn.textContent =="Entra")
+     if(bton.textContent =="Entra")
     {
 
    
 
 
 
-         btn.textContent = "Esci";
-         container.style.backgroundColor = "black";
-         container2.style.backgroundColor = "black";
-         container2.style.paddingTop = "8vh";
-            foot.style.backgroundColor = "black";
-        
+         bton.textContent = "Esci";
+         container2.style.backgroundColor ="black";
+         slideshow.style.marginBottom = "40vh";
+        foot.style.display="none";
         
         
         button1.style.display="block";
@@ -421,16 +417,18 @@ else{}
 
 }
 
-else if(btn.textContent == "Esci" ){
+else if(bton.textContent == "Esci" ){
            
 
 
-            btn.textContent = "Entra";
-        container.style.backgroundColor = "#052bff";
-        container2.style.backgroundColor = "#eeff00";
-        container2.style.paddingTop = "0vh";
-        foot.style.backgroundColor = "#052bff";
-        
+            bton.textContent = "Entra";
+         container2.style.backgroundColor ="transparent";
+            slideshow.style.marginBottom = "0vh";
+        foot.style.display="flex";
+
+
+
+
             button1.style.display="none";
             button2.style.display="none";
             button3.style.display="none";
@@ -443,15 +441,13 @@ else{}
 
         
 
- if(btn.textContent =="Eingeben")
+ if(bton.textContent =="Eingeben")
  {
 
-         btn.textContent = "Zurück";
-         container.style.backgroundColor = "black";
-         container2.style.backgroundColor = "black";
-         container2.style.paddingTop = "8vh";
-            foot.style.backgroundColor = "black";
-        
+         bton.textContent = "Zurück";
+         container2.style.backgroundColor ="black";
+         slideshow.style.marginBottom = "40vh";
+        foot.style.display="none";
         
         
         button1.style.display="block";
@@ -466,15 +462,16 @@ else{}
 
 }
 
-else if(btn.textContent == "Zurück" ){
+else if(bton.textContent == "Zurück" ){
             
 
-            btn.textContent = "Eingeben";
-        container.style.backgroundColor = "#052bff";
-        container2.style.backgroundColor = "#eeff00";
-        container2.style.paddingTop = "0vh";
-        foot.style.backgroundColor = "#052bff";
-        
+            bton.textContent = "Eingeben";
+         container2.style.backgroundColor ="transparent";
+            slideshow.style.marginBottom = "0vh";
+        foot.style.display="flex";
+
+
+
             button1.style.display="none";
             button2.style.display="none";
             button3.style.display="none";
@@ -485,19 +482,17 @@ else if(btn.textContent == "Zurück" ){
 
 else{}
 
-if( btn.textContent=="Enter")
+if( bton.textContent=="Enter")
     {
 
   
 
 
 
-         btn.textContent = "Exit";
-         container.style.backgroundColor = "black";
-         container2.style.backgroundColor = "black";
-         container2.style.paddingTop = "8vh";
-            foot.style.backgroundColor = "black";
-        
+         bton.textContent = "Exit";
+         container2.style.backgroundColor ="black";
+         slideshow.style.marginBottom = "40vh";
+        foot.style.display="none";
         
         
         button1.style.display="block";
@@ -512,16 +507,18 @@ if( btn.textContent=="Enter")
 
 }
 
-else if(btn.textContent == "Exit" ){
+else if(bton.textContent == "Exit" ){
             
 
 
-            btn.textContent = "Enter";
-        container.style.backgroundColor = "#052bff";
-        container2.style.backgroundColor = "#eeff00";
-        container2.style.paddingTop = "0vh";
-        foot.style.backgroundColor = "#052bff";
-        
+            bton.textContent = "Enter";
+         container2.style.backgroundColor ="transparent";
+            slideshow.style.marginBottom = "0vh";
+        foot.style.display="flex";
+
+
+
+
             button1.style.display="none";
             button2.style.display="none";
             button3.style.display="none";
