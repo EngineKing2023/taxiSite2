@@ -87,6 +87,18 @@ let plumber = document.querySelector(".plumber");
 let isShowPlumber = true;
 
 
+
+
+if (window.DeviceOrientationEvent) {
+    window.addEventListener('orientationchange', function() { location.reload(); }, false);
+}
+
+
+
+
+
+
+
 function showContact2(){
     if(isShowContact2){
         spa.style.display="none";

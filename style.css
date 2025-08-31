@@ -1,3 +1,662 @@
+
+
+@media only screen and (max-width:500px) 
+
+{
+  * {
+   
+
+margin: 0px;
+padding: 0px;
+
+}
+body{
+width: 100%;
+height: 100dvh;
+
+  margin:0px;
+  padding:0px;
+  background:#000000;
+
+}
+ button img{
+  display: none;
+}
+
+.dropdown{
+  display: none;
+}
+
+a{
+  display: flex;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  right:  5vw;
+  bottom: 5vw;
+  -webkit-tap-highlight-color: transparent;
+}
+h1{
+  color:red;
+  margin: 2vw;
+  font-size: 7vw;
+}
+h2{
+  color:red;
+  margin: 2vw;
+  font-size: 5.5vw;
+}
+h3{
+  color: red;
+  font-size: 4.8vw;
+  margin: 3vw;
+}
+ol{
+ 
+  width: 95%;
+}
+li{
+  list-style-type: none;
+  color: whitesmoke;
+  font-size: 5vw;
+  margin: 3vw;
+  padding: 0px;
+}
+
+.ring{
+  display: none;
+}
+
+.naslov{
+
+  color: red;
+  font-size: 5vw;
+}
+.cenik{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+  color: whitesmoke;
+  font-size: 5vw;
+}
+.polovica{
+  display: flex;
+  margin: 1vw;
+  
+}
+.jeziki{
+  display: flex;
+ position: absolute;
+  align-items: center;
+  justify-content: center;
+ margin-left:auto;
+    margin-right:auto;
+    z-index: 2;
+    width: 100%;
+  
+}
+.button_lang{
+  display: inline-block;
+  
+  text-align: center;
+  
+  width: 10vw;
+  height: 10vw;
+  
+  
+}
+.klici{
+  display: flex;
+}
+.vstopi{
+  display: flex;
+}
+
+
+.flight{
+  display: none;
+}
+.ship{
+  display: none;
+}
+.train{
+  display: none;
+}
+.contact2{
+  display: none;
+}
+.price2{
+  display: none;
+}
+.location2{
+  display: none;
+}
+.aboutUs{
+            width: 100%;
+            height: 100dvh;
+            background-color: rgb(0, 0, 0);
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            
+            
+            
+      
+       }
+
+.contact{
+         width: 100%;
+            height: 100dvh;
+            background-color: rgb(0, 0, 0);
+        display: none;
+        flex-direction: column  ;
+        text-align: center  ;
+            
+            
+            
+            
+       }
+         
+.engine{
+            
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(0, 0, 0);
+            display: none;
+            flex-direction: column  ;
+            align-items: center;  
+            justify-content: start;
+            
+            text-align: center;
+            
+       }
+       .unity{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(0, 0, 0);
+            display: none;  
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            
+       }
+       .websites{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(0, 0, 0);
+            display: none; 
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+       }
+       .plumber{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(0, 0, 0);
+            display: none; 
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+       }
+.button0{
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  left:  5vw;
+  bottom: 5vw;
+}
+
+
+
+.btt{
+        
+          -webkit-user-select: none; /* Safari */        
+          -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* IE10+/Edge */
+          user-select: none; /* Standard */
+            
+       }  
+
+ .btt2{
+          position: fixed;
+          font-size: 5vw;
+          right: 5vw;
+          bottom: 5vw;
+       }     
+
+  .btt3{
+        
+          -webkit-user-select: none; /* Safari */        
+          -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* IE10+/Edge */
+          user-select: none; /* Standard */
+            background-color: transparent ;
+            border: none;
+            margin: 2vw 4vw;
+       }  
+
+
+.bton{
+  
+            font-size:4.5vw;
+            
+            padding: 3px;
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+            
+            font-weight: bold;
+            cursor: vertical-text;
+            font-family: sans-serif, cursive;
+            text-decoration: none;
+            color: hsl(219, 100%, 50%);
+            border: hsl(69, 100%, 50%) 3px solid;
+            background-color:hsl(69, 100%, 50%);
+            border-radius: 0.25em;
+            text-shadow: 0 0 0 hsla(226, 100%, 50%, 0.3), 0 0 0 currentColor;
+            box-shadow: inset 0 0 0em 0 hsl(69, 100%, 50%), 0 0 0 0 hsl(69, 100%, 50%);
+            transition:all 0.5s;
+       }
+
+.close
+        {
+          width: 20vw;
+          height: 8vw;
+          font-weight: bold;
+          cursor: pointer;
+            font-family: sans-serif, cursive;
+            text-decoration: none;
+            color: hsl(0, 0%, 100%);
+            border: hsl(0, 100%, 50%) 3px solid;
+            background-color:hsl(0, 100%, 50%);
+            border-radius: 1em;
+            text-shadow: 0 0 0em hsl(0 0% 100% / 0.3), 0 0 0em currentColor;
+            box-shadow: inset 0 0 0em 0 hsl(0, 100%, 50%), 0 0 0em 0 hsl(0, 100%, 50%);
+            transition:all 0.5s;
+        } 
+.slika{
+  margin-top: 10vw;;
+}
+.slika2{
+  margin-top: 5vw;
+  width: 80%;
+  height: 20vh;
+}
+.slika3{
+  width: 50vw;
+  height: 50vw;
+}
+
+img{
+    width: 65vw;
+    height: 65vw;
+}
+.container{
+  background: linear-gradient( yellow 50%, blue 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 100dvh;
+    
+ }
+.container2{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 100% ;
+    height: 100dvh;
+    
+    
+    
+ }
+
+    
+ 
+    
+     
+    
+    
+    
+ 
+
+.button1{
+            display: none;
+            position: absolute;
+            left: 5vw;
+            bottom: 35vh;
+
+            width:40vw;
+            height: 15vw;
+                  font-size:6vw;
+                  
+                  
+                  cursor: pointer;
+                  font-family: sans-serif, cursive;
+                  text-decoration: none;
+                  color:#008cff;
+                  font-weight: bold;
+                  border:#eeff00 3px solid;
+                  background-color:transparent;
+                  border-radius: 1.2em;
+                  text-shadow: 0 0 0 #008cff, 0 0 0 currentColor;
+                  box-shadow: inset 0 0 0.5em 0#eeff00, 0 0 0.5em 0#eeff00;
+                  transition:all 0.5s;
+      
+            
+       }   
+       
+  .button2{
+                   display: none;
+            position: absolute;
+            left: 5vw;
+            bottom: 25vh;
+                    width:40vw;
+            height: 15vw;
+            font-size:6vw;
+            
+                  cursor: pointer;
+                  font-family: sans-serif, cursive;
+                  text-decoration: none;
+                  color:#eeff00;
+                  font-weight: bold;
+                  border:#008cff 3px solid;
+                  background-color:transparent;
+                  border-radius: 1.2em;
+                  text-shadow: 0 0 0 hsl(0 0% 100% / 0.3), 0 0 0 currentColor;
+                  box-shadow: inset 0 0 0.5em 0#008cff, 0 0 0.5em 0#008cff;
+                  transition:all 0.5s;
+             
+            
+       }  
+   .button3{
+            display: none;
+            position: absolute;
+            left: 5vw;
+            bottom: 15vh;
+            width:40vw;
+            height: 15vw;
+            font-size:6vw;
+            
+           cursor: pointer;
+                  font-family: sans-serif, cursive;
+                  text-decoration: none;
+                  color:#008cff;
+                  font-weight: bold;
+                  border:#eeff00 3px solid;
+                  background-color:transparent;
+                  border-radius: 1.2em;
+                  text-shadow: 0 0 0 #008cff, 0 0 0 currentColor;
+                  box-shadow: inset 0 0 0.5em 0#eeff00, 0 0 0.5em 0#eeff00;
+                  transition:all 0.5s;
+             
+       }      
+       
+    .button4{
+          display: none;
+               position: absolute;
+            right: 5vw;
+            bottom: 35vh;
+             width:40vw;
+             height: 15vw;
+             font-size:6vw;
+             
+           cursor: pointer;
+                  font-family: sans-serif, cursive;
+                  text-decoration: none;
+                  color:#eeff00;
+                  font-weight: bold;
+                  border:#008cff 3px solid;
+                  background-color:transparent;
+                  border-radius: 1.2em;
+                  text-shadow: 0 0 0 hsl(0 0% 100% / 0.3), 0 0 0 currentColor;
+                  box-shadow: inset 0 0 0.5em 0#008cff, 0 0 0.5em 0#008cff;
+                  transition:all 0.5s;
+    }
+    .button5{
+            display: none;
+              position: absolute;
+            right: 5vw;
+            bottom: 25vh;
+            width:40vw;
+            height: 15vw;
+            font-size:6vw;
+            
+           cursor: pointer;
+                  font-family: sans-serif, cursive;
+                  text-decoration: none;
+                  color:#008cff;
+                  font-weight: bold;
+                  border:#eeff00 3px solid;
+                  background-color:transparent;
+                  border-radius: 1.2em;
+                  text-shadow: 0 0 0 #008cff, 0 0 0 currentColor;
+                  box-shadow: inset 0 0 0.5em 0#eeff00, 0 0 0.5em 0#eeff00;
+                  transition:all 0.5s;
+            
+       }
+    .button6{
+             display: none;
+               position: absolute;
+            right: 5vw;
+            bottom: 15vh;
+             width:40vw;
+             height: 15vw;
+             font-size:6vw;
+             
+           cursor: pointer;
+                  font-family: sans-serif, cursive;
+                  text-decoration: none;
+                  color:#eeff00;
+                  font-weight: bold;
+                  border:#008cff 3px solid;
+                  background-color:transparent;
+                  border-radius: 1.2em;
+                  text-shadow: 0 0 0 hsl(0 0% 100% / 0.3), 0 0 0 currentColor;
+                  box-shadow: inset 0 0 0.5em 0#008cff, 0 0 0.5em 0#008cff;
+                  transition:all 0.5s;
+             
+       }
+ .button7{
+  display: none;
+}
+.button8{
+  display: none;
+}
+.button9{
+  display: none;
+}
+.button10{
+  display: none;
+}
+.button11{
+  display: none;
+}
+.button12{
+  display: none;
+}
+       .inlin{
+        display: static;
+        
+  
+     }
+.icons{
+  
+  width: 15vw;
+  height: 15vw;
+  z-index: 2;
+}
+.icon1{
+  position: absolute;
+  left: 3vw; 
+  top: 52.5%;
+}
+.icon2{
+  position: absolute;
+  right: 3vw  ;
+  top: 52.5%;
+}
+.icon3{
+  position: absolute;
+  right: 3vw ;
+  top: 37.5%;
+}
+.icon4{
+  position: absolute;
+  left: 3vw;
+  top: 37.5%;
+}
+.icon5{
+  position: absolute;
+  left: 3vw;
+  top: 22.5%;
+}
+.icon6{
+  position: absolute;
+  right: 3vw;
+  top: 22.5%;
+}
+.icon7{
+  position: absolute;
+  left: 3vw;
+  top: 67.5%;
+}
+.icon8{
+  position: absolute;
+  right: 3vw; 
+  top: 67.5%;
+}
+.icon9{ 
+  position: absolute;
+  left: 30%;
+  top: 22.5%; 
+}
+.icon10{
+  position: absolute;
+  right: 30%;
+  top: 22.5%;
+}
+.icon11{
+  display: flex;
+  position: absolute;
+  right:5vw;
+  bottom: 5vw;
+}
+
+
+
+.slideshow-container {
+  
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+@keyframes fade {
+  from {opacity: 1} 
+  to {opacity: 1}
+}
+
+.logo{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        bottom: 10vw;
+        width: 9vw;
+        height: 9vw;
+        -webkit-tap-highlight-color: transparent;
+
+}      
+
+.footer{
+  display: flex;
+  position: absolute;
+ 
+  justify-content: center;
+  
+  font-size: 3vw;
+ bottom: 0;
+ width: 100%;
+        height: 6vw;
+  color: whitesmoke;
+}
+.footer p {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+   text-align: center;
+  font-size: 3vw;
+  margin: 0px;
+  padding: 0px;
+  
+}
+p{
+  display: block;
+  color: whitesmoke;
+  font-size: 5vw;
+  margin: 0vw;
+  padding: 0px;
+}
+div span{
+  display: none;
+}
+div span:nth-child(2){
+  display: none;
+}
+div span:nth-child(3){
+  display: none;
+}
+div span:nth-child(4){
+  display: none;
+}
+div span:nth-child(5){
+  display: none;
+}
+div span:nth-child(6){
+  display: none;
+}
+div span:nth-child(7){
+  display: none;
+}
+div span:nth-child(8){
+  display: none;
+}
+div span:nth-child(9){
+  display: none;
+}
+div span:nth-child(10){
+  display: none;
+}
+div span:nth-child(11){
+  display: none;
+}
+div span:nth-child(12){
+  display: none;
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:500px) {
+  
 * {
    
 
@@ -14,6 +673,7 @@ height: 100dvh;
   background:#000000;
 
 }
+
 .btt{
         
           -webkit-user-select: none; /* Safari */        
@@ -903,649 +1563,7 @@ div span:nth-child(12)::before
 
 
 
-
-
-
-@media  (max-width:500px) 
-
-{
-body {
-    font-family: Arial, sans-serif;
-    background-color: #000000;
-    width: 100% ;
-    height: 100dvh;
-    margin: 0px;
-    padding: 0px;
 }
-.dropdown{
-  display: none;
-}
-
-a{
-  display: flex;
-  position: static;
-  align-items: center;
-  justify-content: center;
-  right:  5vw;
-  bottom: 5vw;
-  -webkit-tap-highlight-color: transparent;
-}
-h1{
-  color:red;
-  margin: 2vw;
-  font-size: 7vw;
-}
-h2{
-  color:red;
-  margin: 2vw;
-  font-size: 5.5vw;
-}
-h3{
-  color: red;
-  font-size: 4.8vw;
-  margin: 3vw;
-}
-ol{
- 
-  width: 95%;
-}
-li{
-  list-style-type: none;
-  color: whitesmoke;
-  font-size: 5vw;
-  margin: 3vw;
-  padding: 0px;
-}
-
-.ring{
-  display: none;
-}
-
-.naslov{
-
-  color: red;
-  font-size: 5vw;
-}
-.cenik{
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  
-  color: whitesmoke;
-  font-size: 5vw;
-}
-.polovica{
-  display: flex;
-  margin: 1vw;
-  
-}
-.jeziki{
-  display: flex;
- position: absolute;
-  align-items: center;
-  justify-content: center;
- margin-left:auto;
-    margin-right:auto;
-    z-index: 2;
-    width: 100%;
-  
-}
-.button_lang{
-  display: inline-block;
-  
-  text-align: center;
-  
-  width: 10vw;
-  height: 10vw;
-  
-  
-}
-.klici{
-  display: flex;
-}
-.vstopi{
-  display: flex;
-}
-
-
-.flight{
-  display: none;
-}
-.ship{
-  display: none;
-}
-.train{
-  display: none;
-}
-.contact2{
-  display: none;
-}
-.price2{
-  display: none;
-}
-.location2{
-  display: none;
-}
-.aboutUs{
-            width: 100%;
-            height: 100dvh;
-            background-color: rgb(0, 0, 0);
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            
-            
-            
-      
-       }
-
-.contact{
-         width: 100%;
-            height: 100dvh;
-            background-color: rgb(0, 0, 0);
-        display: none;
-        flex-direction: column  ;
-        text-align: center  ;
-            
-            
-            
-            
-       }
-         
-.engine{
-            
-            width: 100%;
-            height: 100vh;
-            background-color: rgb(0, 0, 0);
-            display: none;
-            flex-direction: column  ;
-            align-items: center;  
-            justify-content: start;
-            
-            text-align: center;
-            
-       }
-       .unity{
-            width: 100%;
-            height: 100vh;
-            background-color: rgb(0, 0, 0);
-            display: none;  
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            
-       }
-       .websites{
-            width: 100%;
-            height: 100vh;
-            background-color: rgb(0, 0, 0);
-            display: none; 
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-       }
-       .plumber{
-            width: 100%;
-            height: 100vh;
-            background-color: rgb(0, 0, 0);
-            display: none; 
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-       }
-.button0{
-  display: flex;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  left:  5vw;
-  bottom: 5vw;
-}
-
-
-
-.btt{
-        
-          -webkit-user-select: none; /* Safari */        
-          -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* IE10+/Edge */
-          user-select: none; /* Standard */
-            
-       }  
-
- .btt2{
-          position: fixed;
-          font-size: 5vw;
-          right: 5vw;
-          bottom: 5vw;
-       }     
-
-  .btt3{
-        
-          -webkit-user-select: none; /* Safari */        
-          -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* IE10+/Edge */
-          user-select: none; /* Standard */
-            background-color: transparent ;
-            border: none;
-            margin: 2vw 4vw;
-       }  
-
-
-.bton{
-  
-            font-size:4.5vw;
-            
-            padding: 3px;
-            margin-top: 1vw;
-            margin-bottom: 1vw;
-            
-            font-weight: bold;
-            cursor: vertical-text;
-            font-family: sans-serif, cursive;
-            text-decoration: none;
-            color: hsl(219, 100%, 50%);
-            border: hsl(69, 100%, 50%) 3px solid;
-            background-color:hsl(69, 100%, 50%);
-            border-radius: 0.25em;
-            text-shadow: 0 0 0 hsla(226, 100%, 50%, 0.3), 0 0 0 currentColor;
-            box-shadow: inset 0 0 0em 0 hsl(69, 100%, 50%), 0 0 0 0 hsl(69, 100%, 50%);
-            transition:all 0.5s;
-       }
-
-.close
-        {
-          width: 20vw;
-          height: 8vw;
-          font-weight: bold;
-          cursor: pointer;
-            font-family: sans-serif, cursive;
-            text-decoration: none;
-            color: hsl(0, 0%, 100%);
-            border: hsl(0, 100%, 50%) 3px solid;
-            background-color:hsl(0, 100%, 50%);
-            border-radius: 1em;
-            text-shadow: 0 0 0em hsl(0 0% 100% / 0.3), 0 0 0em currentColor;
-            box-shadow: inset 0 0 0em 0 hsl(0, 100%, 50%), 0 0 0em 0 hsl(0, 100%, 50%);
-            transition:all 0.5s;
-        } 
-.slika{
-  margin-top: 10vw;;
-}
-.slika2{
-  margin-top: 5vw;
-  width: 80%;
-  height: 20vh;
-}
-.slika3{
-  width: 50vw;
-  height: 50vw;
-}
-
-img{
-    width: 65vw;
-    height: 65vw;
-}
-.container{
-  background: linear-gradient( yellow 50%, blue 50%);
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    align-items: center;
-    width: 100%;
-    height: 100dvh;
-    
- }
-.container2{
- 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    width: 100% ;
-    
-    
-    
-    
- }
-
-    
- 
-    
-     
-    
-    
-    
- 
-
-.button1{
-            display: none;
-            position: absolute;
-            left: 5vw;
-            bottom: 35vh;
-
-            width:40vw;
-            height: 15vw;
-                  font-size:6vw;
-                  
-                  
-                  cursor: pointer;
-                  font-family: sans-serif, cursive;
-                  text-decoration: none;
-                  color:#008cff;
-                  font-weight: bold;
-                  border:#eeff00 3px solid;
-                  background-color:transparent;
-                  border-radius: 1.2em;
-                  text-shadow: 0 0 0 #008cff, 0 0 0 currentColor;
-                  box-shadow: inset 0 0 0.5em 0#eeff00, 0 0 0.5em 0#eeff00;
-                  transition:all 0.5s;
-      
-            
-       }   
-       
-  .button2{
-                   display: none;
-            position: absolute;
-            left: 5vw;
-            bottom: 25vh;
-                    width:40vw;
-            height: 15vw;
-            font-size:6vw;
-            
-                  cursor: pointer;
-                  font-family: sans-serif, cursive;
-                  text-decoration: none;
-                  color:#eeff00;
-                  font-weight: bold;
-                  border:#008cff 3px solid;
-                  background-color:transparent;
-                  border-radius: 1.2em;
-                  text-shadow: 0 0 0 hsl(0 0% 100% / 0.3), 0 0 0 currentColor;
-                  box-shadow: inset 0 0 0.5em 0#008cff, 0 0 0.5em 0#008cff;
-                  transition:all 0.5s;
-             
-            
-       }  
-   .button3{
-            display: none;
-            position: absolute;
-            left: 5vw;
-            bottom: 15vh;
-            width:40vw;
-            height: 15vw;
-            font-size:6vw;
-            
-           cursor: pointer;
-                  font-family: sans-serif, cursive;
-                  text-decoration: none;
-                  color:#008cff;
-                  font-weight: bold;
-                  border:#eeff00 3px solid;
-                  background-color:transparent;
-                  border-radius: 1.2em;
-                  text-shadow: 0 0 0 #008cff, 0 0 0 currentColor;
-                  box-shadow: inset 0 0 0.5em 0#eeff00, 0 0 0.5em 0#eeff00;
-                  transition:all 0.5s;
-             
-       }      
-       
-    .button4{
-          display: none;
-               position: absolute;
-            right: 5vw;
-            bottom: 35vh;
-             width:40vw;
-             height: 15vw;
-             font-size:6vw;
-             
-           cursor: pointer;
-                  font-family: sans-serif, cursive;
-                  text-decoration: none;
-                  color:#eeff00;
-                  font-weight: bold;
-                  border:#008cff 3px solid;
-                  background-color:transparent;
-                  border-radius: 1.2em;
-                  text-shadow: 0 0 0 hsl(0 0% 100% / 0.3), 0 0 0 currentColor;
-                  box-shadow: inset 0 0 0.5em 0#008cff, 0 0 0.5em 0#008cff;
-                  transition:all 0.5s;
-    }
-    .button5{
-            display: none;
-              position: absolute;
-            right: 5vw;
-            bottom: 25vh;
-            width:40vw;
-            height: 15vw;
-            font-size:6vw;
-            
-           cursor: pointer;
-                  font-family: sans-serif, cursive;
-                  text-decoration: none;
-                  color:#008cff;
-                  font-weight: bold;
-                  border:#eeff00 3px solid;
-                  background-color:transparent;
-                  border-radius: 1.2em;
-                  text-shadow: 0 0 0 #008cff, 0 0 0 currentColor;
-                  box-shadow: inset 0 0 0.5em 0#eeff00, 0 0 0.5em 0#eeff00;
-                  transition:all 0.5s;
-            
-       }
-    .button6{
-             display: none;
-               position: absolute;
-            right: 5vw;
-            bottom: 15vh;
-             width:40vw;
-             height: 15vw;
-             font-size:6vw;
-             
-           cursor: pointer;
-                  font-family: sans-serif, cursive;
-                  text-decoration: none;
-                  color:#eeff00;
-                  font-weight: bold;
-                  border:#008cff 3px solid;
-                  background-color:transparent;
-                  border-radius: 1.2em;
-                  text-shadow: 0 0 0 hsl(0 0% 100% / 0.3), 0 0 0 currentColor;
-                  box-shadow: inset 0 0 0.5em 0#008cff, 0 0 0.5em 0#008cff;
-                  transition:all 0.5s;
-             
-       }
- .button7{
-  display: none;
-}
-.button8{
-  display: none;
-}
-.button9{
-  display: none;
-}
-.button10{
-  display: none;
-}
-.button11{
-  display: none;
-}
-.button12{
-  display: none;
-}
-       .inlin{
-        display: static;
-        
-  
-     }
-.icons{
-  
-  width: 15vw;
-  height: 15vw;
-  z-index: 2;
-}
-.icon1{
-  position: absolute;
-  left: 3vw; 
-  top: 52.5%;
-}
-.icon2{
-  position: absolute;
-  right: 3vw  ;
-  top: 52.5%;
-}
-.icon3{
-  position: absolute;
-  right: 3vw ;
-  top: 37.5%;
-}
-.icon4{
-  position: absolute;
-  left: 3vw;
-  top: 37.5%;
-}
-.icon5{
-  position: absolute;
-  left: 3vw;
-  top: 22.5%;
-}
-.icon6{
-  position: absolute;
-  right: 3vw;
-  top: 22.5%;
-}
-.icon7{
-  position: absolute;
-  left: 3vw;
-  top: 67.5%;
-}
-.icon8{
-  position: absolute;
-  right: 3vw; 
-  top: 67.5%;
-}
-.icon9{ 
-  position: absolute;
-  left: 30%;
-  top: 22.5%; 
-}
-.icon10{
-  position: absolute;
-  right: 30%;
-  top: 22.5%;
-}
-.icon11{
-  display: flex;
-  position: absolute;
-  right:5vw;
-  bottom: 5vw;
-}
-
-
-
-.slideshow-container {
-  
-  display: flex;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-}
-.fade {
-  animation-name: fade;
-  animation-duration: 0.5s;
-}
-@keyframes fade {
-  from {opacity: 1} 
-  to {opacity: 1}
-}
-
-.logo{
-        display: flex;
-        position: absolute;
-        align-items: center;
-        bottom: 10vw;
-        width: 9vw;
-        height: 9vw;
-        -webkit-tap-highlight-color: transparent;
-
-}      
-
-.footer{
-  display: flex;
-  position: absolute;
- 
-  justify-content: center;
-  
-  font-size: 3vw;
- bottom: 0;
- width: 100%;
-        height: 6vw;
-  color: whitesmoke;
-}
-.footer p {
-  display: flex;
-  justify-content: center;
-  align-items: end;
-   text-align: center;
-  font-size: 3vw;
-  margin: 0px;
-  padding: 0px;
-  
-}
-p{
-  display: block;
-  color: whitesmoke;
-  font-size: 5vw;
-  margin: 0vw;
-  padding: 0px;
-}
-div span{
-  display: none;
-}
-div span:nth-child(2){
-  display: none;
-}
-div span:nth-child(3){
-  display: none;
-}
-div span:nth-child(4){
-  display: none;
-}
-div span:nth-child(5){
-  display: none;
-}
-div span:nth-child(6){
-  display: none;
-}
-div span:nth-child(7){
-  display: none;
-}
-div span:nth-child(8){
-  display: none;
-}
-div span:nth-child(9){
-  display: none;
-}
-div span:nth-child(10){
-  display: none;
-}
-div span:nth-child(11){
-  display: none;
-}
-div span:nth-child(12){
-  display: none;
-}
-
-
-
-}
-
-
-
-
 
 
 
