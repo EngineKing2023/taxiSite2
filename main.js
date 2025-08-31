@@ -41,6 +41,11 @@ let button4 =document.querySelector(".button4");
 let button5 =document.querySelector(".button5");
 let button6 =document.querySelector(".button6");
 let button7 =document.querySelector(".button7");
+let button8 =document.querySelector(".button8");
+let button9 =document.querySelector(".button9");
+let button10 =document.querySelector(".button10");
+let button11 =document.querySelector(".button11");
+let button12 =document.querySelector(".button12");
 
 let spa =  document.querySelector(".ring");
 let jezik = document.querySelector(".jeziki");
@@ -51,10 +56,23 @@ let ring = document.querySelector(".ring");
 let slideshow = document.querySelector(".slideshow-container");
 let foot = document.querySelector(".footer p");
 
-
-
+let ship = document.querySelector(".ship");
+let isShowShip=true;
+let train = document.querySelector(".train");
+let isShowTrain=true;
 let flight = document.querySelector(".flight");
 let isShowFlight=true;
+let contact2 = document.querySelector(".contact2");
+let isShowContact2=true;
+let price2 = document.querySelector(".price2");
+let isShowPrice2=true;
+let location2 = document.querySelector(".location2");
+let isShowLocation2=true;
+
+
+
+
+
 let aboutUs = document.querySelector(".aboutUs");
 let isShowAboutUs = true;
 let contact = document.querySelector(".contact");
@@ -69,12 +87,172 @@ let plumber = document.querySelector(".plumber");
 let isShowPlumber = true;
 
 
+function showContact2(){
+    if(isShowContact2){
+        spa.style.display="none";
+        slideshow.style.marginRight ="40vw";
+        contact2.style.display ="flex";
+        button7.style.display="none";
+        button8.style.display="none";
+        button9.style.display="none";
+        button10.style.display="none";
+        button11.style.display="none";
+        button12.style.display="none";
+    }
+}
+
+function closeContact2(){
+        if(closeContact2){
+            spa.style.display="flex";
+        slideshow.style.marginRight ="0vw";
+        contact2.style.display ="none";
+        button7.style.display="block";
+        button8.style.display="block";
+        button9.style.display="block";
+        button10.style.display="block";
+        button11.style.display="block";
+        button12.style.display="block";
+        }
+
+
+}
+
+function showPrice2(){
+    if(isShowPrice2){
+        spa.style.display="none";
+        slideshow.style.marginRight ="40vw";
+        price2.style.display ="flex";
+        button7.style.display="none";
+        button8.style.display="none";
+        button9.style.display="none";
+        button10.style.display="none";
+        button11.style.display="none";
+        button12.style.display="none";
+    }
+}
+
+function closePrice2(){
+        if(closePrice2){
+            spa.style.display="flex";
+        slideshow.style.marginRight ="0vw";
+        price2.style.display ="none";
+        button7.style.display="block";
+        button8.style.display="block";
+        button9.style.display="block";
+        button10.style.display="block";
+        button11.style.display="block";
+        button12.style.display="block";
+        }
+
+
+}
+function showLocation2(){
+    if(isShowLocation2){
+        spa.style.display="none";
+        slideshow.style.marginRight ="40vw";
+        location2.style.display ="flex";
+        button7.style.display="none";
+        button8.style.display="none";
+        button9.style.display="none";
+        button10.style.display="none";
+        button11.style.display="none";
+        button12.style.display="none";
+    }
+}
+
+function closeLocation2(){
+        if(closeLocation2){
+            spa.style.display="flex";
+        slideshow.style.marginRight ="0vw";
+        location2.style.display ="none";
+        button7.style.display="block";
+        button8.style.display="block";
+        button9.style.display="block";
+        button10.style.display="block";
+        button11.style.display="block";
+        button12.style.display="block";
+        }
+
+
+}
+
+
+
+function showShip(){
+    if(isShowShip){
+        spa.style.display="none";
+        slideshow.style.marginLeft ="40vw";
+        ship.style.display ="flex";
+        button7.style.display="none";
+        button8.style.display="none";
+        button9.style.display="none";
+        button10.style.display="none";
+        button11.style.display="none";
+        button12.style.display="none";
+    }
+}
+
+function closeShip(){
+        if(closeShip){
+            spa.style.display="flex";
+        slideshow.style.marginLeft ="0vw";
+        ship.style.display ="none";
+        button7.style.display="block";
+        button8.style.display="block";
+        button9.style.display="block";
+        button10.style.display="block";
+        button11.style.display="block";
+        button12.style.display="block";
+        }
+
+
+}
+
+function showTrain(){
+    if(isShowShip){
+        spa.style.display="none";
+        slideshow.style.marginLeft ="40vw";
+        train.style.display ="flex";
+        button7.style.display="none";
+        button8.style.display="none";
+        button9.style.display="none";
+        button10.style.display="none";
+        button11.style.display="none";
+        button12.style.display="none";
+    }
+}
+
+function closeTrain(){
+        if(closeShip){
+            spa.style.display="flex";
+        slideshow.style.marginLeft ="0vw";
+        train.style.display ="none";
+        button7.style.display="block";
+        button8.style.display="block";
+        button9.style.display="block";
+        button10.style.display="block";
+        button11.style.display="block";
+        button12.style.display="block";
+        }
+
+
+}
+
+
+
+
+
 function showFlight(){
     if(isShowFlight){
         spa.style.display="none";
         slideshow.style.marginLeft ="40vw";
         flight.style.display ="flex";
         button7.style.display="none";
+        button8.style.display="none";
+        button9.style.display="none";
+        button10.style.display="none";
+        button11.style.display="none";
+        button12.style.display="none";
     }
 }
 
@@ -84,6 +262,11 @@ function closeFlight(){
         slideshow.style.marginLeft ="0vw";
         flight.style.display ="none";
         button7.style.display="block";
+        button8.style.display="block";
+        button9.style.display="block";
+        button10.style.display="block";
+        button11.style.display="block";
+        button12.style.display="block";
         }
 
 
