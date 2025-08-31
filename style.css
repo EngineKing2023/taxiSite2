@@ -536,9 +536,7 @@ div span:nth-child(12)::before
     height: 100dvh;
    }    
 
-   .button0{
-    display: none;
-   }
+   
    .slideshow-container{
     display: block;
     position: absolute;
@@ -908,88 +906,7 @@ div span:nth-child(12)::before
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media  (max-width:600px) and (orientation: portrait)
+@media  (max-width:500px) 
 
 {
 body {
@@ -1043,6 +960,7 @@ li{
 .ring{
   display: none;
 }
+
 .naslov{
 
   color: red;
@@ -1092,8 +1010,23 @@ li{
 
 
 .flight{
-  display: none;}
-
+  display: none;
+}
+.ship{
+  display: none;
+}
+.train{
+  display: none;
+}
+.contact2{
+  display: none;
+}
+.price2{
+  display: none;
+}
+.location2{
+  display: none;
+}
 .aboutUs{
             width: 100%;
             height: 100dvh;
@@ -1425,13 +1358,22 @@ img{
                   transition:all 0.5s;
              
        }
-.button7{
+ .button7{
   display: none;
 }
 .button8{
   display: none;
 }
 .button9{
+  display: none;
+}
+.button10{
+  display: none;
+}
+.button11{
+  display: none;
+}
+.button12{
   display: none;
 }
        .inlin{
@@ -1560,54 +1502,46 @@ p{
   margin: 0vw;
   padding: 0px;
 }
+div span{
+  display: none;
+}
+div span:nth-child(2){
+  display: none;
+}
+div span:nth-child(3){
+  display: none;
+}
+div span:nth-child(4){
+  display: none;
+}
+div span:nth-child(5){
+  display: none;
+}
+div span:nth-child(6){
+  display: none;
+}
+div span:nth-child(7){
+  display: none;
+}
+div span:nth-child(8){
+  display: none;
+}
+div span:nth-child(9){
+  display: none;
+}
+div span:nth-child(10){
+  display: none;
+}
+div span:nth-child(11){
+  display: none;
+}
+div span:nth-child(12){
+  display: none;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
