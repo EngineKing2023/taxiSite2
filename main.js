@@ -40,15 +40,21 @@ let button3 =document.querySelector(".button3");
 let button4 =document.querySelector(".button4");
 let button5 =document.querySelector(".button5");
 let button6 =document.querySelector(".button6");
+let button7 =document.querySelector(".button7");
 
-
+let spa =  document.querySelector(".ring");
 let jezik = document.querySelector(".jeziki");
 let icon11 = document.querySelector(".icon11");
 let container = document.querySelector(".container");
 let container2 = document.querySelector(".container2");
+let ring = document.querySelector(".ring");
 let slideshow = document.querySelector(".slideshow-container");
 let foot = document.querySelector(".footer p");
 
+
+
+let flight = document.querySelector(".flight");
+let isShowFlight=true;
 let aboutUs = document.querySelector(".aboutUs");
 let isShowAboutUs = true;
 let contact = document.querySelector(".contact");
@@ -63,7 +69,25 @@ let plumber = document.querySelector(".plumber");
 let isShowPlumber = true;
 
 
+function showFlight(){
+    if(isShowFlight){
+        spa.style.display="none";
+        slideshow.style.marginLeft ="40vw";
+        flight.style.display ="flex";
+        button7.style.display="none";
+    }
+}
 
+function closeFlight(){
+        if(closeFlight){
+            spa.style.display="flex";
+        slideshow.style.marginLeft ="0vw";
+        flight.style.display ="none";
+        button7.style.display="block";
+        }
+
+
+}
 
 function showAboutUs(){
     if(isShowAboutUs){
