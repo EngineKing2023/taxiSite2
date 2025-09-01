@@ -2,6 +2,8 @@ let slideIndex = 0;
 let slideIndex2 = 0;
 showSlides();
 showSlides2();
+let x = document.getElementsByTagName("BODY")[0];
+x.removeAttribute('readonly');
 
 function showSlides() {
   let i;
