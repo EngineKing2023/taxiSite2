@@ -323,7 +323,7 @@ function closeAboutUs(){
         button1.style.display="block";
          button2.style.display="block";
         button3.style.display="block";
-        button4.style.display="block";
+        button4.style.display="flex";
         button5.style.display="block";
         button6.style.display="block";
         isShowAboutUs = true;
@@ -370,7 +370,7 @@ function closeContact(){
         button1.style.display="block";
          button2.style.display="block";
         button3.style.display="block";
-        button4.style.display="block";
+        button4.style.display="flex";
         button5.style.display="block";
         button6.style.display="block";
         isShowContact = true;
@@ -404,7 +404,7 @@ function closeEngine(){
         button1.style.display="block";
             button2.style.display="block";
         button3.style.display="block";
-        button4.style.display="block";
+        button4.style.display="flex";
         button5.style.display="block";
         button6.style.display="block";
         
@@ -474,7 +474,7 @@ function closeWebsites(){
         button1.style.display="block";
             button2.style.display="block";
         button3.style.display="block";
-        button4.style.display="block";
+        button4.style.display="flex";
         button5.style.display="block";
         button6.style.display="block";
         websites.style.display ="none";
@@ -508,7 +508,7 @@ function closePlumber(){
         button1.style.display="block";
             button2.style.display="block";
         button3.style.display="block";
-        button4.style.display="block";
+        button4.style.display="flex";
         button5.style.display="block";
         button6.style.display="block";
 
