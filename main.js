@@ -1,5 +1,7 @@
 let slideIndex = 0;
+let slideIndex2 = 0;
 showSlides();
+showSlides2();
 
 function showSlides() {
   let i;
@@ -11,6 +13,18 @@ function showSlides() {
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 400); // Change image every 2 seconds
+}
+
+function showSlides2() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex2++;
+  if (slideIndex2 > slides.length) {slideIndex2 = 1}
+  slides[slideIndex2-1].style.display = "block";
+  setTimeout(showSlides2, 2000); // Change image every 2 seconds
 }
 
 let theSong = document.getElementById("song");
@@ -426,7 +440,7 @@ function closeUnity(){
         button1.style.display="block";
             button2.style.display="block";
         button3.style.display="block";
-        button4.style.display="block";
+        button4.style.display="flex";
         button5.style.display="block";
         button6.style.display="block";
 
@@ -534,7 +548,7 @@ if( bton.textContent=="Vstopi")
         button1.style.display="block";
         button2.style.display="block";
         button3.style.display="block";
-        button4.style.display="block";
+        button4.style.display="flex";
         button5.style.display="block";
         button6.style.display="block";
        
