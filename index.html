@@ -1,418 +1,111 @@
 <!DOCTYPE html>
-<html  lang="en-US" >
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
-    <title>TAXI</title>
-    <link rel="icon" type="images/x-icon" href="images/ikonaTAB2.png">
-    <link rel="stylesheet" href="style.css" >
-<script src="mainbegin.js">window.onorientationchange = function() { 
-        window.location.reload();
-    };</script>
-   
+    <title>Fixed Image on Color Changer</title>
+     <link rel="stylesheet" href="style.css" >
+ 
 </head>
 <body>
-
-
- <button onclick="showFlight()" class="button7 btt"><img  src="images/airplane.png" alt=""></button>
-<button onclick="showShip()" class="button8 btt"><img  src="images/boat.png" alt=""></button>
-<button onclick="showTrain()" class="button9 btt"><img  src="images/train (1).png" alt=""></button>
-
- <button onclick="showContact2()" class="button10 btt"><img  src="images/contact.png" alt=""></button>
-<button onclick="showPrice2()" class="button11 btt"><img  src="images/euro.png" alt=""></button>
-<button onclick="showLocation2()" class="button12 btt"><img  src="images/location-outline.png" alt=""></button>
-
-
-
-  <div class="jeziki">
-    <a  href="index.html"><img class="button_lang btt3" src="images/flag.png" alt=""></a>
-    <a  href="ita.html"><img class="button_lang btt3" src="images/world.png" alt=""></a>
-    <a  href="at.html"><img class="button_lang btt3" src="images/austria.png" alt=""></a>
-    <a  href="en.html"><img class="button_lang btt3" src="images/united-kingdom.png"></a>
-    <a  href="tr.html"><img class="button_lang btt3" src="images/turkey.png"></a>
-
-  </div>
-
-
-
-  <div class="ring">
-       <span></span>
-       <span></span>
-       <span></span>
-       <span></span>
-       <span></span>
-       <span></span>
-       <span></span>
-       <span></span>
-       <span></span>
-       <span></span>
-       <span></span>
-       <span></span>
-  </div>
-    
- 
-<div class="flight">
-        <h1>TAKSI PREVOZI DO IN Z LETALIŠČ</h1>
-         <p>Specializirani smo za prevoze s taksijem do in iz letališč za posameznike in skupine, s poudarkom na vljudni in popolnoma profesionalni osebni storitvi po dostopnih cenah. 24 ur na dan, 7 dni v tednu.</p>
-         
-
-        <button onclick="closeFlight()" class="btt2 close btt">Nazaj</button>
-        
-    </div>
-<div class="ship">
-        <h1>TAKSI PREVOZI DO IN S POTNIŠKEGA TERMINALA</h1>
-         <p>Specializirani smo za prevoze s taksijem do in iz potniškega terminala za posameznike in skupine, do bližnjih znamenitosi, ki jih najdete pod <b style="color:white;">SLOVENIJA COOL PLACES</b> s poudarkom na vljudni in popolnoma profesionalni osebni storitvi po dostopnih cenah. 24 ur na dan, 7 dni v tednu.</p>
-         
-
-        <button onclick="closeShip()" class="btt2 close btt">Nazaj</button>
-        
-    </div>
-
-<div class="train">
-        <h1>TAKSI PREVOZI DO IN Z ŽELEZNIŠKIH POSTAJ</h1>
-         <p>Specializirani smo za prevoze s taksijem do in iz železniških postaj za posameznike in skupine, s poudarkom na vljudni in popolnoma profesionalni osebni storitvi po dostopnih cenah. 24 ur na dan, 7 dni v tednu.</p>
-         
-
-        <button onclick="closeTrain()" class="btt2 close btt">Nazaj</button>
-        
-    </div>
-
-<div class="contact2">
-        <h1>TAKSI PREVOZI DO IN Z LETALIŠČ</h1>
-         <p>Specializirani smo za prevoze s taksijem do in iz letališč za posameznike in skupine, s poudarkom na vljudni in popolnoma profesionalni osebni storitvi po dostopnih cenah. 24 ur na dan, 7 dni v tednu.</p>
-         
-
-        <button onclick="closeContact2()" class="btt2 close btt">Nazaj</button>
-        
-    </div>
-<div class="price2">
-        <h1>TAKSI PREVOZI DO IN S POTNIŠKEGA TERMINALA</h1>
-         <p>Specializirani smo za prevoze s taksijem do in iz potniškega terminala za posameznike in skupine, do bližnjih znamenitosi, ki jih najdete pod <b style="color:white;">SLOVENIJA COOL PLACES</b> s poudarkom na vljudni in popolnoma profesionalni osebni storitvi po dostopnih cenah. 24 ur na dan, 7 dni v tednu.</p>
-         
-
-        <button onclick="closePrice2()" class="btt2 close btt">Nazaj</button>
-        
-    </div>
-
-<div class="location2">
-        <h1>TAKSI PREVOZI DO IN Z ŽELEZNIŠKIH POSTAJ</h1>
-         <p>Specializirani smo za prevoze s taksijem do in iz železniških postaj za posameznike in skupine, s poudarkom na vljudni in popolnoma profesionalni osebni storitvi po dostopnih cenah. 24 ur na dan, 7 dni v tednu.</p>
-         
-
-        <button onclick="closeLocation2()" class="btt2 close btt">Nazaj</button>
-        
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="aboutUs">
-        <h1>Zakaj izbrati nas?</h1>
-         <ol>
-          <li>Ker ponujamo zanesljiv, varen in ugoden prevoz. Naša ekipa izkušenih voznikov je vedno pripravljena, da vas varno in udobno pripelje do vašega cilja. </li>
-          <li>Ker naša ekipa se spozna na računovodstvo in knjigovodstvo, ter vam ponuja cenovno ugodno rešitev za vodenje vašega podjetja.</li>
-          <li>Ker vam želimo izdelati spletno stran po vašem okusu. </li>
-         
-          <li> Ker je naše poslanstvo daleč nad ostalimi, saj želimo izboljšati svet okoli nas in vas z razvojem in izboljšanjem motorja na notranje izgorevanje. </li>
-        </ol>
-          
-         
-
-        
-        <img class="slika3" src="images/different hand color.png" alt="team picture">
-        
-        <button onclick="closeAboutUs()" class="btt2 close btt">Nazaj</button>
-    </div>
-
-    <div class="contact">
-        <h1>Kontakt</h1>
-          <a class="inlin" href="_blank">
-            <img class="icons icon1"  src="images/logo-discord.png" alt="discord logo press to call" >
-          </a>
-              
-              <a class="inlin" href="_blank">
-            <img class="icons icon2"src="images/logo-facebook.png" alt="discord logo press to call" >
-          </a>
-              
-              <a class="inlin" href="_blank">
-            <img class="icons icon3"src="images/logo-instagram.png" alt="discord logo press to call" >
-          </a>
-              
-              <a  class="inlin" href="_blank">
-            <img class="icons icon4"src="images/logo-linkedin.png" alt="discord logo press to call" >
-          </a>
-              
-              <a class="inlin" href="viber://pa?chatURI=[https://connect.viber.com/business/aa170bf6-8c8b-11f0-9e43-7e6d17b6d785]&text=[message text]">
-            <img class="icons icon5"src="images/logo-snapchat.png" alt="discord logo press to call" >
-          </a>
-              
-              <a class="inlin" href="_blank">
-            <img class="icons icon6"src="images/logo-twitter.png" alt="discord logo press to call" >
-          </a>
-              
-              <a class="inlin"href="https://wa.me/+38664188332">
-            <img class="icons icon7"src="images/logo-whatsapp.png" alt="discord logo press to call" >
-          </a>
-              <a class="inlin" href="mailto:taxikotsi@gmail.com"> 
-            <img class="icons icon8"src="images/mail-outline.png" alt="discord logo press to call" >
-          </a>
-           <a class="inlin" href="viber://pa?chatURI=[https://connect.viber.com/business/aa170bf6-8c8b-11f0-9e43-7e6d17b6d785]">
-            <img class="icons icon9"src="images/telegram.png" alt="discord logo press to call" >
-          </a>
-           <a class="inlin" href="https://connect.viber.com/business/aa170bf6-8c8b-11f0-9e43-7e6d17b6d785">
-            <img class="icons icon10"src="images/viber.png" alt="discord logo press to call" >
-          </a>
-          
-        <button onclick="closeContact()" class="btt2 close btt">Nazaj</button>
-    
-    </div>
-
-     <div class="engine">
-      
-        <h1>Termalni Motor</h1>
-        <p>   Ker je termalni motor  srce vozila in ga uporabljamo vsakodnevno. Je iz želje, da ga izboljšamo  nastalo 
-            naše podjetje, ki se ukvarja s prevozi, računovodstvom manjših podjetij, programiranjem spletnih strani, modeliranjem in razvojem motorja. <br>
-            Naš "končni" cilj je razviti termalni motor, ki bo okolju prijazen in hkrati zagotavljal vrhunsko zmogljivost, saj je trenutni izkoristek le 30% pri običajnih avtomobilih. 
-            
-        
-        </p>
-        <img class="slika" src="images/kingsLogopng.png" alt="engine king logo">
-        <button onclick="closeEngine()" class="btt2 close btt">Nazaj</button>
-    </div>
-
-    <div class="unity">
-
-       <div class="slideshow-container2">
-
-
-                <div class="mySlides2 fade2">
-                  
-                  <img src="images/BLED.png" >
-                  
+    <div class="contact3">
+        <div >
+            <div >
+                    <img src="images/kingsLogopng.png" 
+                        alt="kings logo"
+                        >
                 </div>
-                
-                <div class="mySlides2 fade2">
-                  
-                  <img src="images/Ljubljana.png" >
-                  
+        </div>
+        <div>
+                <div>
+                        <img src="images/imepic.png" alt="">
                 </div>
-                
-                <div class="mySlides2 fade2">
-                  
-                  <img src="images/LogarskaDolina.png" >
-                  
-                </div>
-                <div class="mySlides2 fade2">
-                    
-                    <img src="images/Maribor_Lent.png" >
-                    
-                  </div>
-                  <div class="mySlides2 fade2">
-                    
-                    <img src="images/Piran.png" >
-                    
-                  </div>
-                  <div class="mySlides2 fade2">
-                    
-                    <img src="images/PostojnskaJama.png" >
-                    
-                  </div>
-                  <div class="mySlides2 fade2">
-                    
-                    <img src="images/Predjamski_Grad_.png" >
-                    
-                  </div>
-                  <div class="mySlides2 fade2">
-                    
-                    <img src="images/Vintgar.png" >
-                    
-                  </div>
-                  <div class="mySlides2 fade2">
-                    
-                    <img src="images/SKOCJAN.png" >
-                    
-                  </div>
-            </div>
-            <ul>
-              <li><a  href="https://kamzmulcem.si/9-pustolovskih-parkov-po-sloveniji-za-zabavno-druzinsko-druzenje-med-krosnjami/">12 pustolovskih parkov za otroke</a></li>
-              <li><a href="https://www.slovenia.info/sl/dozivetja/terme-in-zdravilisca"></a>Terme in zdravilišča</li>
-              <li><a href="https://slovenia-outdoor.com/dozivetja/">Slovenija outdoors</a></li>
-              <li><a href="https://www.visitljubljana.com/sl/obiskovalci/ogledi-in-izleti/">Obišči Ljubljano</a></li>
-              <li><a href="https://www.visitmaribor.si/en/discover/maribor-in-3-hours/">Obišči Maribor</a></li>
-               <li><a href="https://www.tripadvisor.com/Attractions-g274876-Activities-Piran_Slovenian_Istria_Slovenian_Littoral_Region.html">Obišči Piran</a></li>
-              <li><a href="https://www.bled.si/sl/"></a>Obišči Bled</li>
-              <li><a href="https://www.slovenia.info/sl/destinacije/regije/alpska-slovenija">Obišči Alpe</a></li>
-             
-
-              <li><a href="https://www.tripadvisor.com/Attractions-g274862-Activities-Slovenia.html">Top 15</a></li>
-            </ul>
-
-        <button onclick="closeUnity()" class="btt2 close btt">Nazaj</button>
-    </div>
-
-
-    <div class="websites">
-        <h1>Ali potrebujete odzivno spletno stran?</h1>
-           <h2>Blog?</h2> 
-             <h2>Vizitko?</h2>
-        <p>Ne glede na to, ali ste ustanovitelj zagonskega podjetja ali vodstveni delavec, ki se spopada z izzivi, specifičnimi za panogo. Ustvarili bomo spletno stran po meri, ki vam bo pomagala izstopati, si pridobiti zaupanje in uveljaviti vašo blagovno znamko kot prelomnico v vaši panogi. </p>
-        <img class="slika2" src="images/coding.png" alt="code on display">
-        <br>
-        <h3>Kontaktirajte nas!</h3>
-        <h4><a href="tel:0038664188332">Pokličite nas +386-64-188-332</a></h4>
-       <br>
-        
-        <button onclick="closeWebsites()" class="btt2 close btt">Nazaj</button>
-    </div>
-
+                <div class="contact3">
+                        <a  href="ita.html"><img class="button_lang btt3" src="images/ita.png" alt=""></a>
+                        <a  href="at.html"><img class="button_lang btt3" src="images/at.png" alt=""></a>
+                        <a  href="en.html"><img class="button_lang btt3" src="images/en.png" alt=""></a>
     
-    <div class="plumber">
-        <h1>Cenik</h1>
-        <div class="naslov">
-          TAXI
+                </div>
+
         </div>
-        <div class="cenik">
-              <div class="polovica">
-                 <p style="background-color:red; font-weight: bold;">Tarifa 1</p> |
-                 Redne Stranke,|
-                  člani |
-                 Štartnina 2 eu |
-                 1.10 eu..1 km |
-                 Čakalna ura 17eu.
-              </div>
-              <div class="polovica">
-                 <p style="background-color:red; font-weight: bold;">Tarifa 2</p> |
-                 Nočna, |
-                  naključne stranke |
-                 Štartnina 2 eu |
-                 1.50 eu..1 km |
-                 Čakalna ura 20 eu.
-              </div>
-              
-        </div>
-        <div class="naslov">
-          RAČUNOVODSTVO
-        </div>
-        <p>Cena storitve je od <strong>20 eu</strong>  naprej in je odvisna od velikosti podjetja, oziroma od števila računov.
-        </p>
-        <div class="naslov">
-          SPLETNA STRAN
-        </div>
-        <p>Cena spletne strani je odvisna od obsega, zahtevnosti, dizajna in vaših želja. <br>
-        Enostavna spletna stran oziroma vizitka od 100 eu naprej. <br>
-        Poslovna stran od 1000 eu naprej. <br>
-        Online trgovina od 1000 eu naprej. <br>
-        Gostovanje in domena ... minimalno 30eu/leto. <br>
-        Spletno stran izdelamo s pomočjo kode html, css, js, ruby, RoR.
         
-
-      
-      </p>
-       
-    <button onclick="closePlumber()" class="btt2 close btt">Nazaj</button>
     </div>
-
-
-   <div class="container ">
-
     
 
-        <div class="container2">
 
-              <div class="vstopi">
-                <button class="button0 bton" class="btt">Vstopi</button>
-            </div>
-            <div class="slideshow-container">
+                <div class="div1">
+                        <div  >
+                                <img class="img2" src="images/sitepic.png"  alt="">
+                         </div>
 
-
-                <div class="mySlides fade">
-                  
-                  <img src="images/taxilogo2.png" >
-                  
+                    <div>
+                        <p class="p2">Ekipa <span style="color: red;">X-TEAM </span>združuje strokovnost različnih področij v eni zanesljivi službi. </p>
+                    </div>
                 </div>
                 
-                <div class="mySlides fade">
-                  
-                  <img src="images/taxilogo2311.png" >
-                  
+                <div class="div1">
+                       
+
+                    <div>
+                        <p class="p2">Naš servis ponuja celovite storitve  popravil vseh vrst mikromobilnih ter kolesarskih vozil.</p>
+                    </div>
+
+                       <div> 
+                                <img class="img2" src="images/sitepic2.png"  alt="">
+                         </div>
+
                 </div>
+
+                <div class="div1">
+                        <div  >
+                                <img class="img2" src="images/slikapic3.png"  alt="">
+                         </div>
+
+                    <div>
+                        <p class="p2"><span style="color: red;">X-TEAM </span> ponuja specializirano obnovo baterij za mikromobilnost </p>
+                    </div>
+                </div>
+
+                <div class="div1">
+                       
+
+                    <div>
+                        <p class="p2">Kot <span style="color: red;">X-TEAM </span>združujemo strokovnost pleskarjev, monterjev, vodovodarjev, keramičarjev ter elektičarjev.</p>
+                    </div>
+
+                       <div> 
+                                <img class="img2" src="images/slikapic4.png"  alt="">
+                         </div>
+
+                </div>
+                <p>Naša geografska pokritost formalno zajema celotno istrsko regijo. Nudimo tudi mobilno pomoč in hitro intervencijo zunaj  določenega območja.</p>
                 
-                <div class="mySlides fade">
-                  
-                  <img src="images/taxilogo2.png" >
-                  
-                </div>
-                <div class="mySlides fade">
-                    
-                    <img src="images/taxilogo2311.png" >
-                    
-                  </div>
-                  <div class="mySlides fade">
-                    
-                    <img src="images/taxilogo332.png" >
-                    
-                  </div>
-                  <div class="mySlides fade">
-                    
-                    <img src="images/taxilogo332.png" >
-                    
-                  </div>
-                  <div class="mySlides fade">
-                    
-                    <img src="images/taxilogo333.png" >
-                    
-                  </div>
-                  <div class="mySlides fade">
-                    
-                    <img src="images/taxilogo333.png" >
-                    
-                  </div>
-                  <div class="mySlides fade">
-                    
-                    <img src="images/taxilogo332.png" >
-                    
-                  </div>
-            </div>
+                   
+                                        
+                                           
+                                      
+                
 
-                  <div class="klici">
-                      <a href="tel:+386-64-188-332" class=" icon11 bton btt" >Pokliči</a>
-                  </div>
-                        <img class="logo" src="images/PLY.png" alt="play and pouse button" >
-                                    
-                                    <audio loop  id="song" src="audio/Soul Man no noise.mp3" type="audio/mp3"></audio>
-                                </div>
+               
+    </div>
+    <!-- Fixed responsive image -->
+   <div class="contact">
+                     <a  href="https://connect.viber.com/business/aa170bf6-8c8b-11f0-9e43-7e6d17b6d785" >
+                                    <img class="icons " src="images/viber.png" alt="viber logo press to call" >
+                                </a>
 
- <div class="footer">
- 
-            <p> Denis Ažman <br>&copy;2025 Taxi služba. Kopiranje strani je dovoljeno.</p>
-        </div>
-            </div>
-        
-       
-
-
-
-
-
-
-   </div>
-      <button onclick="showAboutUs()" class="button1 btt">O nas</button>
-      <button onclick="showContact()" class="button2 btt">Kontakt</button>
-      <button onclick="showEngine()" class="button3 btt">Motor</button>
-      <button onclick="showUnity()" class="button4 btt">Lepote  <img src="images/flag.png" alt=""> </button>
-      <button onclick="showWebsites()"class="button5 btt">Spletne strani</button>
-      <button onclick="showPlumber()"class="button6 btt">Cenik</button>
-     
-    <script src="main.js"></script>
+                                <a href="https://wa.me/+38664188332">
+                                    <img class="icons " src="images/whatsapp.png" alt="whats app press to call" >
+                                </a>
+                                <a  href="mailto:taxikotsi@gmail.com"> 
+                                    <img class="icons " src="images/gmail.png" alt="mail press to open" >
+                                </a>
+                                 
+                                <a href="tel:+386-64-188-332" >
+                                                <img class="icons2" src="images/phone-call.png" alt="call by phone icon">
+                                            </a>
+                     </div>
+    <!-- Dummy content for scrolling -->
    
 </body>
 </html>
